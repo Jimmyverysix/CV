@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Yang Jinming / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://jimmyverysix.github.io/.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -26,10 +26,10 @@ author:
   name             : "杨金名"
   pronouns         : # example: "she/her"  
   bio              : "Yang Jinming"
-  location         : "山东省泰安市"
+  location         : "Tai 'an City, Shandong Province"
   employer         : "UESTC"
   uri              : # URL
-  email            : "202115030224@sust.edu.cn & 2675285169@qq.com" 
+  email            : "202115030224@sust.edu.cn" 
 
   # Academic websites
   academia         : # URL
