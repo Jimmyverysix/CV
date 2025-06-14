@@ -13,7 +13,7 @@ redirect_from:
 - **性别**: 男
 - **出生年月**: 2003/07
 - **联系电话**: 15053817859
-- **联系电话**: 202115030224@sust.edu.cn
+- **邮箱**: 202115030224@sust.edu.cn
 - **政治面貌**: 中共党员
 - **籍贯**: 山东泰安
 
@@ -43,7 +43,7 @@ X等荣誉学位
 
 ## 项目经历
 ### 面向中学教师与学生的数学知识生成式智能体
-清华大学智能产业研究院寒假科研项目（2024.12-2025.05）（中国，北京） 导师：<a href="https://yuanchun-li.github.io/" target="_blank">李元春</a>
+**清华大学**智能产业研究院寒假科研项目（2024.12-2025.05）（中国，北京） 导师：<a href="https://yuanchun-li.github.io/" target="_blank">李元春</a>
 
 ![项目架构图](images/面向中学教师与学生的数学知识生成式智能体图1.png)
 
@@ -51,21 +51,28 @@ X等荣誉学位
 
 - 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）CCF-A 一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a>
+  ![论文图1](images/面向中学教师与学生的数学知识生成式智能体图2.png)
 
 ### 数字孪生电网
 智能电网通过数字孪生技术与机器学习、实时云通讯、边缘计算的结合，实现其数字化转型与优化。担任**项目负责人**负责数字孪生平台的搭建、变电站选址机器学习模型（层次聚类、遗传算法）的构建、撰写多篇论文。
+
+<video controls width="100%">
+  <source src="images/视频1.mp4" type="video/mp4">
+  您的浏览器不支持 video 标签。
+</video>
 
 - 论文《Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis》已检索 EI IF=1.9 学生一作、通讯作者  
   <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
 - 论文《The Real-time High-voltage Switch Position Detection Method》已检索 EI会议 一作、通讯作者  
   <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
-- 实用新型专利已发表《一种便于安装的计算机散热装置》一作
+- 实用新型专利已授权《一种便于安装的计算机散热装置》 一作
 - 参与撰写项目技术相关软件著作权4项
 
 ### 行为特征预测成绩模型
 预测模型构建了机器学习集成模型，精准预测高校学生的学业成绩，实现高效学生管理。担任**项目负责人**从事算法模型设计、构建集成模型（融合了K-means聚类、Apriori算法、随机森林、梯度提升树和XGBoost等机器学习算法）。
 
 - 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 EI IF=1.9 学生一作、通讯作者
+
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
 - 论文《Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model》在投 SCI IF=2.7 学生一作
 
