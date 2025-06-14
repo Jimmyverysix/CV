@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yang Jinming's Personal Homepage"
+title: "Yang Jinming"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,12 +10,20 @@ redirect_from:
 ## 基本信息
 
 - **姓名**: 杨金名
-- **联系方式**: 15053817859 / 202115030224@sust.edu.cn
-- **教育背景**: 陕西科技大学 / 计算机科学与技术 / 本科 / 专业排名 1/92
+- **性别**: 男
+- **出生年月**: 2003/07
+- **联系电话**: 15053817859
+- **联系电话**: 202115030224@sust.edu.cn
 - **政治面貌**: 中共党员
-- **出生日期**: 2003.07.19
 - **籍贯**: 山东泰安
-- **英语能力**: CET6 467分
+
+## 教育背景
+
+- **电子科技大学（UESTC）**: 硕士研究生在读（2025.09至今） 专业：计算机技术 导师：周涛
+- **阿尔斯特大学（UU）**: 工学学士（2024.09-2025.06）
+    核心课程：Full-stack Strategies and Development｜Cloud Native Development｜Data Analytics｜Machine Learning and Pattern Recognition
+- **陕西科技大学（SUST）**: 工学学士（2021.09-2025.06） 专业：计算机科学与技术
+    核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
 
 
 ## 荣誉奖项
