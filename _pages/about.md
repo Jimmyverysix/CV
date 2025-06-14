@@ -19,11 +19,27 @@ redirect_from:
 
 ## 教育背景
 
-- **电子科技大学（UESTC）**: 硕士研究生在读（2025.09至今） 专业：计算机技术 导师：周涛
-- **阿尔斯特大学（UU）**: 工学学士（2024.09-2025.06）
-    核心课程：Full-stack Strategies and Development｜Cloud Native Development｜Data Analytics｜Machine Learning and Pattern Recognition
-- **陕西科技大学（SUST）**: 工学学士（2021.09-2025.06） 专业：计算机科学与技术
-    核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
+- **电子科技大学（University of Electronic Science and Technology of China）**: 
+
+  硕士研究生在读 **（2025.09至今）** 
+
+  专业：计算机技术 导师：周涛
+
+- **阿尔斯特大学（Ulster University）**: 
+
+  工学学士 **（2024.09-2025.06）**
+
+  核心课程：Full-stack Strategies and Development｜Cloud Native Development｜Data Analytics｜Machine Learning and Pattern Recognition
+
+- **陕西科技大学（Shaanxi University of Science & Technology）**: 
+
+  工学学士 **（2021.09-2025.06）** 
+    
+  专业：计算机科学与技术
+
+  排名：专业第一（1/92）（GPA：4.05/5.00）
+
+  核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
 
 
 ## 荣誉奖项
