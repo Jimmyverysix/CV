@@ -7,31 +7,71 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+<div class="sitemap-container">
+  <h2>Pages</h2>
+  <ul class="sitemap-list">
+    {% for post in site.pages %}
+      <li class="sitemap-item">
+        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+  <h2>Posts</h2>
+  <ul class="sitemap-list">
+    {% for post in site.posts %}
+      <li class="sitemap-item">
+        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+  {% capture written_label %}'None'{% endcapture %}
 
-{% capture written_label %}'None'{% endcapture %}
+  {% for collection in site.collections %}
+    {% unless collection.output == false or collection.label == "posts" %}
+      {% capture label %}{{ collection.label }}{% endcapture %}
+      {% if label != written_label %}
+        <h2>{{ label }}</h2>
+        {% capture written_label %}{{ label }}{% endcapture %}
+      {% endif %}
+      <ul class="sitemap-list">
+        {% for post in collection.docs %}
+          <li class="sitemap-item">
+            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endunless %}
+  {% endfor %}
+</div>
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+<style>
+.sitemap-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sitemap-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sitemap-item {
+  margin-bottom: 10px;
+}
+
+.sitemap-item a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sitemap-item a:hover {
+  color: #0056b3;
+}
+</style>

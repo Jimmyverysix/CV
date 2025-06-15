@@ -51,6 +51,7 @@ X等荣誉学位
 
 - 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）CCF-A 一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a>
+
   ![论文图1](images/面向中学教师与学生的数学知识生成式智能体图2.png)
 
 ### 数字孪生电网
@@ -72,7 +73,6 @@ X等荣誉学位
 预测模型构建了机器学习集成模型，精准预测高校学生的学业成绩，实现高效学生管理。担任**项目负责人**从事算法模型设计、构建集成模型（融合了K-means聚类、Apriori算法、随机森林、梯度提升树和XGBoost等机器学习算法）。
 
 - 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 EI IF=1.9 学生一作、通讯作者
-
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
 - 论文《Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model》在投 SCI IF=2.7 学生一作
 
@@ -123,7 +123,7 @@ X等荣誉学位
 ## 其他经历
 
 ### 学生干部经历:
-- 担任学院党支部副书记、学院团委副书记（学生）、院团委科创部负责人、班长
+- 本科四年期间担任学院党支部副书记、学院团委副书记（学生）、院团委科创部负责人、班长
 
 ### 实践经历:
 - 直线计算机科技（泰安）有限公司法人、程序员客栈协作开发者、HarmonyOS应用开发者高级认证
