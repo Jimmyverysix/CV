@@ -1,91 +1,33 @@
 {% include base_path %}
 
-<div class="page__footer">
-  <div class="footer__content">
-    <div class="footer__social">
-      <ul class="social-icons">
-        {% if site.author.github %}
-          <li><a href="http://github.com/{{ site.author.github }}" class="social-link"><i class="fab fa-github"></i></a></li>
-        {% endif %}
-        {% if site.author.bitbucket %}
-          <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}" class="social-link"><i class="fab fa-bitbucket"></i></a></li>
-        {% endif %}
-        {% if site.atom_feed.hide != true %}
-          <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" class="social-link"><i class="fa fa-rss"></i></a></li>
-        {% endif %}
-      </ul>
-    </div>
-    <div class="footer__copyright">
-      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.
-    </div>
-    <div class="footer__stats">
-      <span>Site last updated: {{ "now" | date: '%Y-%m-%d' }}</span>
-      <span id="busuanzi_container_site_pv" style="display:none;">
-        Total visitors: <span id="busuanzi_value_site_pv"></span>
-      </span>
-      <span id="busuanzi_container_site_uv" style="display:none;">
-        Unique visitors: <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </div>
-  </div>
+{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.bitbucket %}
+      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% endif %}
+    {% if site.atom_feed.hide != true %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.<br />
+  Site last updated {{ "now" | date: '%Y-%m-%d' %}}
 </div>
 
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<style>
-.page__footer {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  text-align: center;
-  border-top: 1px solid #e9ecef;
-}
-
-.footer__content {
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer__social {
-  margin-bottom: 15px;
-}
-
-.social-icons {
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-.social-icons li {
-  margin: 0 10px;
-}
-
-.social-link {
-  color: #6c757d;
-  font-size: 1.2em;
-  transition: color 0.3s;
-}
-
-.social-link:hover {
-  color: #007bff;
-}
-
-.footer__copyright {
-  margin-bottom: 15px;
-  font-size: 0.9em;
-  color: #6c757d;
-}
-
-.footer__stats {
-  font-size: 0.9em;
-  color: #6c757d;
-}
-
-#busuanzi_container_site_pv,
-#busuanzi_container_site_uv {
-  display: inline-block;
-  margin-left: 10px;
-}
-</style>
+<span id="busuanzi_container_site_uv" style="display: inline-block; margin-right: 10px;">
+  Total Visitors: <span id="busuanzi_value_site_uv"></span>
+</span>
+<span id="busuanzi_container_site_pv">
+  Total Visits: <span id="busuanzi_value_site_pv"></span>
+</span>
