@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yang Jinming / Personal Homepage"
+title                    : "Personal Homepage"
 title_separator          : "-"
 name                     : &name "Yang Jinming"
 description              : &description "A handsome guy."

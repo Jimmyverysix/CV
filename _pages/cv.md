@@ -49,27 +49,32 @@ Core Courses: Computer Organization and Architecture | Computer Networks | Data 
 **Tsinghua University** Institute for AI Industry Research Winter Research Project (2024.12 - 2025.05) (Beijing, China)  
 Supervisor: <a href="https://yuanchun-li.github.io/" target="_blank">Yuanchun Li</a>
 
-![Project Architecture Diagram](images/面向中学教师与学生的数学知识生成式智能体图1.png)
+<!-- 确保图片路径正确 -->
+![Project Architecture Diagram]({{ '/images/面向中学教师与学生的数学知识生成式智能体图1.png' | absolute_url }})
 
 As **Project Leader**, constructed a generative intelligent agent (EZYer), with core functions divided into three modules (Teacher Module, Student Module, Controller): The Teacher Module supports one-click generation of LaTeX Beamer lecture notes compliant with the Chinese high school mathematics curriculum, allowing users to customize the insertion of images; The Student Module dynamically generates structured learning notes through multi-role collaborative interaction between "teacher - teaching assistant - top student - struggling student - note taker"; The Controller is responsible for content review of uploaded and generated content to ensure compliance with user requirements.
 
 - Paper "EZYer: A simulacrum of high school with generative agent" has been accepted by AgentIR (SIGIR 2025 Workshop) as first author and corresponding author  
-  <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a>
+  <!-- 确保 PDF 文件路径正确 -->
+  <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a>
 
-  ![Paper Figure 1](images/面向中学教师与学生的数学知识生成式智能体图2.png)
+  <!-- 确保图片路径正确 -->
+  ![Paper Figure 1]({{ '/images/面向中学教师与学生的数学知识生成式智能体图2.png' | absolute_url }})
 
 ### Digital Twin Smart Grid
 The smart grid achieves digital transformation and optimization through the integration of digital twin technology with machine learning, real-time cloud communication, and edge computing. As **Project Leader**, responsible for the construction of the digital twin platform, the development of the machine learning model for substation siting (hierarchical clustering, genetic algorithm), and the writing of multiple papers.
 
 <video controls width="100%">
-  <source src="images/视频1.mp4" type="video/mp4">
+  <source src="{{ '/images/视频1.mp4' | absolute_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 - Paper "Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis" has been indexed by EI with IF=1.9 as first author and corresponding author  
-  <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
+  <!-- 确保 PDF 文件路径正确 -->
+  <a href="{{ '/files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf' | absolute_url }}" target="_blank">PDF</a>
 - Paper "The Real-time High-voltage Switch Position Detection Method" has been indexed by EI conference as first author and corresponding author  
-  <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
+  <!-- 确保 PDF 文件路径正确 -->
+  <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
 - Utility model patent has been authorized "A Computer Cooling Device Facilitating Installation" as first author
 - Participated in the writing of 4 software copyrights related to project technology
 
