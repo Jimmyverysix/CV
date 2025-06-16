@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Personal Information
+## <i class="fas fa-id-card"></i> Personal Information
 
 - **Name**: Yang Jinming
 - **Gender**: Male
@@ -19,7 +19,7 @@ redirect_from:
 - **Political Affiliation**: Member of the Communist Party of China
 - **Place of Origin**: Taian, Shandong
 
-## Education
+## <i class="fas fa-university"></i> Education
 
 ### University of Electronic Science and Technology of China
 Master of Engineering (2025.09 - Present) (Chengdu, China)
@@ -32,7 +32,7 @@ Bachelor of Engineering (2024.09 - 2025.06) (Belfast, United Kingdom)
 
 X Honours Degree
 
-Core Courses: Full-stack Strategies and Development | Cloud Native Development | Data Analytics | Machine Learning and Pattern Recognition
+Core Courses: | Full-stack Strategies and Development | Cloud Native Development | Data Analytics | Machine Learning and Pattern Recognition
 
 ### Shaanxi University of Science & Technology
 Bachelor of Engineering (2021.09 - 2025.06)
@@ -41,9 +41,9 @@ Xi'an, China
 Major: Computer Science and Technology  
 Ranking: First in major (1/92) (GPA: 4.05/5.00)
 
-Core Courses: Computer Organization and Architecture | Computer Networks | Data Structures | Digital Logic Design | Database | Algorithm Analysis | Discrete Mathematics | Linear Algebra | Java Language | C Language | Python Language
+Core Courses: | Computer Organization and Architecture | Computer Networks | Data Structures | Digital Logic Design | Database | Algorithm Analysis | Discrete Mathematics | Linear Algebra | Java Language | C Language | Python Language
 
-## Project Experience
+## <i class="fas fa-briefcase"></i> Project Experience
 
 ### Generative Intelligent Agent for Mathematics Knowledge in Middle School
 **Tsinghua University** Institute for AI Industry Research Winter Research Project (2024.12 - 2025.05) (Beijing, China)  
@@ -90,7 +90,7 @@ The intelligent air conditioning energy-saving system achieves energy optimizati
 
 - The project has been nationally funded under the National College Students' Innovation and Entrepreneurship Training Program (2023)
 
-## Awards and Honors
+## <i class="fas fa-trophy"></i> Awards and Honors
 
 A total of over 40 awards have been won, with some as follows:
 
@@ -108,7 +108,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2023.05 Third Prize in the Northwest Regional Competition of the China College Students' Computer Design Competition
 - 2023.12 Second Prize in the Shaanxi Province College Students' Industrial Design Competition
 
-## Scholarships
+## <i class="fas fa-award"></i> Scholarships
 
 - 2022.09 **National Scholarship** for Undergraduate Students (**First in the entire college**)
 - 2025.05 <a href="https://mp.weixin.qq.com/s/RUU_IPnF5o2ajlXkcts0LA" target="_blank">**Zhi Cheng Zhi Bo Quan You Scholarship**</a> of Shaanxi University of Science & Technology (**First in the entire university**)  
@@ -117,7 +117,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2025.05 Outstanding Student Cadre Scholarship of Shaanxi University of Science & Technology
 - 2024.05 Outstanding Student Cadre Scholarship of Shaanxi University of Science & Technology
 
-## Internship Experience
+## <i class="fas fa-briefcase"></i> Internship Experience
 
 ### Isoftstone Information Technology (Group) Co.,Ltd. Xi'an Branch
 Development Intern (2024.05 - 2024.06) (Xi'an, China)
@@ -129,10 +129,12 @@ Product Intern (2024.08 - 2025.05) (Xi'an, China)
 
 Engaged in AI tool development, AI tool workflow product development, and testing the application of new AI tools in generating new media content
 
-## Other Experiences
+## <i class="fas fa-user"></i> Other Experiences
 
 ### Student Cadre Experience:
 - Served as Deputy Secretary of the College Party Branch, Deputy Secretary of the College Youth League (Student), Head of the Youth League Sci-Tech Department, and Class Monitor during the four years of undergraduate study
 
 ### Practical Experience:
-- Legal Representative of Zhixian Computer Science and Technology (Taian) Co., Ltd., Collaborative Developer of Programmer's Inn, HarmonyOS Application Developer Advanced Certification
+- Legal Representative of Zhixian Computer Science and Technology (Taian) Co., Ltd.
+- Collaborative Developer of Programmer's Inn
+- HarmonyOS Application Developer Advanced Certification
