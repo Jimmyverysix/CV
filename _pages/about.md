@@ -32,8 +32,7 @@ X等荣誉学位
 核心课程：Full-stack Strategies and Development｜Cloud Native Development｜Data Analytics｜Machine Learning and Pattern Recognition
 
 ### 陕西科技大学（Shaanxi University of Science & Technology）
-工学学士 （2021.09-2025.06）
-中国，西安
+工学学士 （2021.09-2025.06）（中国，西安）
 
 专业：计算机科学与技术
 
@@ -47,7 +46,7 @@ X等荣誉学位
 
 ![项目架构图](images/面向中学教师与学生的数学知识生成式智能体图1.png)
 
-担任**项目负责人**构建生成式智能体（EZYer），核心功能分为三大模块（Teacher Module、Student Module、Controller）：Teacher Module 支持一键生成符合中国高中数学教学大纲的 LaTeX Beamer 课件，并允许用户自定义插入图片；Student Module 通过 “教师-助教-优等生-学困生-笔记记录者”的多角色协同互动，动态生成结构化学习笔记；Controller 负责对上传内容和生成内容进行内容审查，以确保生成内容符合用户要求。
+担任**项目负责人**构建生成式智能体（EZYer），核心功能分为三大模块（Teacher Module、Student Module、Controller）：Teacher Module 支持一键生成符合中国高中数学教学大纲的 LaTeX Beamer，并允许用户自定义插入图片；Student Module 通过 “教师-助教-优等生-学困生-笔记记录者”的多角色协同互动，动态生成结构化学习笔记；Controller 负责对上传内容和生成内容进行内容审查，以确保生成内容符合用户要求。
 
 - 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）CCF-A 一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a>

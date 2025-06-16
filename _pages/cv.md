@@ -35,8 +35,7 @@ X Honours Degree
 Core Courses: | Full-stack Strategies and Development | Cloud Native Development | Data Analytics | Machine Learning and Pattern Recognition
 
 ### Shaanxi University of Science & Technology
-Bachelor of Engineering (2021.09 - 2025.06)
-Xi'an, China
+Bachelor of Engineering (2021.09 - 2025.06) (Xi'an, China)
 
 Major: Computer Science and Technology  
 Ranking: First in major (1/92) (GPA: 4.05/5.00)
