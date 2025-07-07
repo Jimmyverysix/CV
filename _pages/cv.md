@@ -55,7 +55,7 @@ As **Project Leader**, constructed a generative intelligent agent (EZYer), with 
 
 - Paper "EZYer: A simulacrum of high school with generative agent" has been accepted by AgentIR (SIGIR 2025 Workshop) as first author and corresponding author  
   <!-- 确保 PDF 文件路径正确 -->
-  <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a>
+  <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 
   <!-- 确保图片路径正确 -->
   ![Paper Figure 1]({{ '/images/面向中学教师与学生的数学知识生成式智能体图2.png' | absolute_url }})
