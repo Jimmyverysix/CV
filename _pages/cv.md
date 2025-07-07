@@ -30,7 +30,7 @@ Supervisor: <a href="https://faculty.uestc.edu.cn/zhoutao1/zh_CN/index/280538/li
 ### Ulster University
 Bachelor of Engineering (2024.09 - 2025.06) (Belfast, United Kingdom)
 
-X Honours Degree
+BACHELOR OF ENGINEERING with **first class** honours
 
 Core Courses: | Full-stack Strategies and Development | Cloud Native Development | Data Analytics | Machine Learning and Pattern Recognition
 

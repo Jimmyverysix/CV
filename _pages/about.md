@@ -27,7 +27,7 @@ redirect_from:
 ### 阿尔斯特大学（Ulster University）
 工学学士 （2024.09-2025.06）（英国，贝尔法斯特）
 
-X等荣誉学位
+**一等**荣誉学位
 
 核心课程：Full-stack Strategies and Development｜Cloud Native Development｜Data Analytics｜Machine Learning and Pattern Recognition
 
