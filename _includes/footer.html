@@ -1,14 +1,15 @@
 {% include base_path %}
 
 {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=dab9b9&w=300&t=tt&d=Zozfu0hiYXS9fGo5PINQtDvjDGf3hNBVRWNl4uy-lNk&co=96c4e4&cmo=d356ec&cmn=7842c6&ct=1db9ab'></script>
+
 <div class="page__footer-follow">
   <ul class="social-icons">
   </ul>
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">
+<div class="page__footer-copyright" style="text-align: center;">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.<br />
   Site last updated {{ "now" | date: '%Y-%m-%d' %}}
 </div>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=dab9b9&w=300&t=tt&d=Zozfu0hiYXS9fGo5PINQtDvjDGf3hNBVRWNl4uy-lNk&co=96c4e4&cmo=d356ec&cmn=7842c6&ct=1db9ab'></script>
