@@ -68,7 +68,7 @@ The smart grid achieves digital transformation and optimization through the inte
   Your browser does not support the video tag.
 </video>
 
-- Paper "Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis" has been indexed by EI with IF=1.9 as first author and corresponding author  
+- Paper "Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis" has been indexed by SCI (Q4) as first author and corresponding author  
   <!-- 确保 PDF 文件路径正确 -->
   <a href="{{ '/files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf' | absolute_url }}" target="_blank">PDF</a>
 - Paper "The Real-time High-voltage Switch Position Detection Method" has been indexed by EI conference as first author and corresponding author  
@@ -80,7 +80,7 @@ The smart grid achieves digital transformation and optimization through the inte
 ### Behavioral Feature Prediction Model for Academic Performance
 The prediction model constructed a machine learning ensemble model to accurately predict college students' academic performance, achieving efficient student management. As **Project Leader**, engaged in algorithm model design and construction of the integrated model (fusion of K-means clustering, Apriori algorithm, random forest, gradient boosting tree, and XGBoost machine learning algorithms).
 
-- Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by EI with IF=1.9 as first author and corresponding author  
+- Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by SCI (Q4) as first author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
 - Paper "Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model" is under review for SCI with IF=2.7 as first author
 

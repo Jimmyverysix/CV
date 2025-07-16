@@ -61,7 +61,7 @@ redirect_from:
   您的浏览器不支持 video 标签。
 </video>
 
-- 论文《Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis》已检索 EI IF=1.9 学生一作、通讯作者  
+- 论文《Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis》已检索 SCI四区 学生一作、通讯作者  
   <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
 - 论文《The Real-time High-voltage Switch Position Detection Method》已检索 EI会议 一作、通讯作者  
   <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
@@ -71,7 +71,7 @@ redirect_from:
 ### 行为特征预测成绩模型
 预测模型构建了机器学习集成模型，精准预测高校学生的学业成绩，实现高效学生管理。担任**项目负责人**从事算法模型设计、构建集成模型（融合了K-means聚类、Apriori算法、随机森林、梯度提升树和XGBoost等机器学习算法）。
 
-- 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 EI IF=1.9 学生一作、通讯作者
+- 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 SCI四区 学生一作、通讯作者
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
 - 论文《Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model》在投 SCI IF=2.7 学生一作
 
