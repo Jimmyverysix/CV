@@ -105,6 +105,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2024.11 Second Prize in the Shaanxi Province Regional Competition of the National College Students' Digital Media Technology Works and Creativity Competition
 - 2024.06 Second Prize in the Northwest Regional Competition of the China College Students' Computer Design Competition
 - 2023.05 Third Prize in the Northwest Regional Competition of the China College Students' Computer Design Competition
+- 2025.05 Third Prize in the Northwest Regional Competition of the China College Students' Computer Design Competition
 - 2023.12 Second Prize in the Shaanxi Province College Students' Industrial Design Competition
 
 ## <i class="fas fa-award"></i> Scholarships
