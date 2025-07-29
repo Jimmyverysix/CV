@@ -7,7 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-## <i class="fas fa-graduation-cap"></i> 基本信息
+<div id="floating-toc" class="floating-toc">
+  <div class="toc-header">
+    <i class="fas fa-list"></i> 目录
+  </div>
+  <ul class="toc-list">
+    <li><a href="#basic-info">基本信息</a></li>
+    <li><a href="#education">教育背景</a></li>
+    <li><a href="#projects">项目经历</a></li>
+    <li><a href="#awards">竞赛奖项</a></li>
+    <li><a href="#scholarships">奖学金</a></li>
+    <li><a href="#internships">实习经历</a></li>
+    <li><a href="#other-experience">其他经历</a></li>
+  </ul>
+</div>
+
+## <i class="fas fa-graduation-cap"></i> <span id="basic-info">基本信息</span>
 
 - **姓名**: 杨金名
 - **性别**: 男
@@ -17,7 +32,7 @@ redirect_from:
 - **政治面貌**: 中共党员
 - **籍贯**: 山东泰安
 
-## <i class="fas fa-university"></i> 教育背景
+## <i class="fas fa-university"></i> <span id="education">教育背景</span>
 
 ### 电子科技大学（University of Electronic Science and Technology of China）
 硕士研究生在读 （2025.09-至今）（中国，成都）
@@ -40,7 +55,7 @@ redirect_from:
 
 核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
 
-## <i class="fas fa-briefcase"></i> 项目经历
+## <i class="fas fa-briefcase"></i> <span id="projects">项目经历</span>
 ### 面向中学教师与学生的数学知识生成式智能体
 **清华大学**智能产业研究院寒假科研项目（2024.12-2025.05）（中国，北京） 导师：<a href="https://yuanchun-li.github.io/" target="_blank">李元春</a>
 
@@ -80,7 +95,7 @@ redirect_from:
 
 - 项目获大学生创新创业训练计划**国家级立项**（2023年度）
 
-## <i class="fas fa-trophy"></i> 竞赛奖项
+## <i class="fas fa-trophy"></i> <span id="awards">竞赛奖项</span>
 
 累计获奖40余项，部分获奖情况如下：
 
@@ -98,7 +113,7 @@ redirect_from:
 - 2023.05 获中国大学生计算机设计大赛西北赛区三等奖
 - 2023.12 获陕西省大学生工业设计大赛二等奖
 
-## <i class="fas fa-award"></i> 奖学金
+## <i class="fas fa-award"></i> <span id="scholarships">奖学金</span>
 
 - 2022.09 获本科生**国家奖学金**（**全院排名第一**）
 - 2025.05 获陕西科技大学<a href="https://mp.weixin.qq.com/s/RUU_IPnF5o2ajlXkcts0LA" target="_blank">**至诚至博全优奖学金**</a>（**全校排名第一**）
@@ -107,7 +122,7 @@ redirect_from:
 - 2025.05 获陕西科技大学优秀学生干部奖学金
 - 2024.05 获陕西科技大学优秀学生干部奖学金
 
-## <i class="fas fa-briefcase"></i> 实习经历
+## <i class="fas fa-briefcase"></i> <span id="internships">实习经历</span>
 
 ### 软通动力信息技术（集团）股份有限公司西安分公司
 开发岗实习生（2024.05-2024.06）（中国，西安）
@@ -119,7 +134,7 @@ redirect_from:
 
 进行AI工具开发、AI工具workflow产品研发等工作，测试新AI工具在产出新媒体内容情况下的应用
 
-## <i class="fas fa-user"></i> 其他经历
+## <i class="fas fa-user"></i> <span id="other-experience">其他经历</span>
 
 ### 学生干部经历:
 - 本科四年期间担任学院党支部副书记、学院团委副书记（学生）、院团委科创部负责人、班长
