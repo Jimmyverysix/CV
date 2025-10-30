@@ -4,10 +4,11 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   height: fit-content;
   top: 0;
   width: 100%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -19,9 +20,11 @@
     content: "";
     position: absolute;
     bottom: 0;
-    height: 1px;
-    background: var(--global-border-color);
+    height: 3px;
+    background: linear-gradient(90deg, #e74c3c, #f39c12, #2ecc71);
     width: 100%;
+    background-size: 300% 100%;
+    animation: shimmer 3s infinite;
   }
 
   &__inner-wrap {

@@ -14,7 +14,7 @@ redirect_from:
   <ul class="toc-list">
     <li><a href="#basic-info">基本信息</a></li>
     <li><a href="#education">教育背景</a></li>
-    <li><a href="#publications">文章专利</a></li>
+    <li><a href="#publications">论文专利</a></li>
     <li><a href="#projects">项目经历</a></li>
     <li><a href="#awards">竞赛奖项</a></li>
     <li><a href="#scholarships">奖学金</a></li>
@@ -56,29 +56,127 @@ redirect_from:
 
 核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
 
-## <i class="fas fa-book"></i> <span id="publications">文章专利</span>
+## <i class="fas fa-book"></i> <span id="publications">论文专利</span>
 
-### 论文发表
-- **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - CCF-A 一作、通讯作者  
-  <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
-- **Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis** (SCI四区) - 学生一作、通讯作者  
-  <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
-- **The Real-time High-voltage Switch Position Detection Method** (EI会议) - 一作、通讯作者  
-  <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
-- **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI四区) - 学生一作、通讯作者  
-  <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 在投) - 学生一作
+<div class="publications-grid">
+  <div class="publications-section">
+    <div class="section-header">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>学术论文</h3>
+    </div>
+    <div class="paper-cards">
+      <div class="paper-card">
+        <div class="paper-header">
+          <span class="paper-title">EZYer: A simulacrum of high school with generative agent</span>
+          <span class="paper-venue">AgentIR, SIGIR 2025 Workshop (CCF-A)</span>
+        </div>
+        <div class="paper-authors">第一作者 & 通讯作者</div>
+        <div class="paper-links">
+          <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
+          <a href="https://jimmyverysix.github.io/EZYer/" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-home"></i> 项目主页</a>
+          <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank" class="btn btn-danger btn-sm"><i class="fab fa-youtube"></i> 演示视频</a>
+        </div>
+      </div>
+      
+      <div class="paper-card">
+        <div class="paper-header">
+          <span class="paper-title">Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis</span>
+          <span class="paper-venue">SCI 四区</span>
+        </div>
+        <div class="paper-authors">第一作者 & 通讯作者</div>
+        <div class="paper-links">
+          <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
+        </div>
+      </div>
+      
+      <div class="paper-card">
+        <div class="paper-header">
+          <span class="paper-title">The Real-time High-voltage Switch Position Detection Method</span>
+          <span class="paper-venue">EI 会议</span>
+        </div>
+        <div class="paper-authors">第一作者 & 通讯作者</div>
+        <div class="paper-links">
+          <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
+        </div>
+      </div>
+      
+      <div class="paper-card">
+        <div class="paper-header">
+          <span class="paper-title">Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data</span>
+          <span class="paper-venue">SCI 四区</span>
+        </div>
+        <div class="paper-authors">第一作者 & 通讯作者</div>
+        <div class="paper-links">
+          <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
+        </div>
+      </div>
+      
+      <div class="paper-card">
+        <div class="paper-header">
+          <span class="paper-title">Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model</span>
+          <span class="paper-venue">SCI (IF=2.7) 在审</span>
+        </div>
+        <div class="paper-authors">第一作者</div>
+      </div>
+    </div>
+  </div>
 
-### 发明专利
-- **履带强度检测装置及方法** (第三发明人) - 发明授权
-- **螺旋桨扭矩检测装置及方法** (第三发明人) - 发明公开
-- **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明受理
+  <div class="patents-section">
+    <div class="section-header">
+      <i class="fas fa-lightbulb"></i>
+      <h3>发明专利</h3>
+    </div>
+    <div class="patent-list">
+      <div class="patent-item">
+        <div class="patent-icon"><i class="fas fa-cogs"></i></div>
+        <div class="patent-content">
+          <div class="patent-title">履带强度检测装置及方法</div>
+          <div class="patent-details">第三发明人 | <span class="patent-status patented">已授权</span></div>
+        </div>
+      </div>
+      
+      <div class="patent-item">
+        <div class="patent-icon"><i class="fas fa-tachometer-alt"></i></div>
+        <div class="patent-content">
+          <div class="patent-title">螺旋桨扭矩检测装置及方法</div>
+          <div class="patent-details">第三发明人 | <span class="patent-status published">已公开</span></div>
+        </div>
+      </div>
+      
+      <div class="patent-item">
+        <div class="patent-icon"><i class="fas fa-robot"></i></div>
+        <div class="patent-content">
+          <div class="patent-title">基于AI大模型的LaTeX Beamer教学文稿生成方法与系统</div>
+          <div class="patent-details">第一发明人 | <span class="patent-status accepted">已受理</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### 实用新型专利
-- **一种便于安装的计算机散热装置** (第一发明人) - 已授权
-
-### 软件著作权
-- 参与撰写项目技术相关软件著作权4项
+  <div class="other-section">
+    <div class="section-header">
+      <i class="fas fa-copyright"></i>
+      <h3>其他成果</h3>
+    </div>
+    <div class="other-items">
+      <div class="other-item">
+        <div class="other-icon"><i class="fas fa-wind"></i></div>
+        <div class="other-content">
+          <div class="other-title">一种便于安装的计算机散热装置</div>
+          <div class="other-details">实用新型专利 | 第一发明人 | <span class="patent-status patented">已授权</span></div>
+        </div>
+      </div>
+      
+      <div class="other-item">
+        <div class="other-icon"><i class="fas fa-code"></i></div>
+        <div class="other-content">
+          <div class="other-title">软件著作权</div>
+          <div class="other-details">参与撰写 4 项项目相关软件著作权</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## <i class="fas fa-briefcase"></i> <span id="projects">项目经历</span>
 ### 面向中学教师与学生的数学知识生成式智能体
@@ -96,7 +194,7 @@ redirect_from:
 ### 数字孪生电网
 智能电网通过数字孪生技术与机器学习、实时云通讯、边缘计算的结合，实现其数字化转型与优化。担任**项目负责人**负责数字孪生平台的搭建、变电站选址机器学习模型（层次聚类、遗传算法）的构建、撰写多篇论文。
 
-<video controls width="100%">
+<video controls width="50%">
   <source src="images/视频1.mp4" type="video/mp4">
   您的浏览器不支持 video 标签。
 </video>
