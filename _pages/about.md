@@ -14,6 +14,7 @@ redirect_from:
   <ul class="toc-list">
     <li><a href="#basic-info">基本信息</a></li>
     <li><a href="#education">教育背景</a></li>
+    <li><a href="#publications">文章专利</a></li>
     <li><a href="#projects">项目经历</a></li>
     <li><a href="#awards">竞赛奖项</a></li>
     <li><a href="#scholarships">奖学金</a></li>
@@ -28,7 +29,7 @@ redirect_from:
 - **性别**: 男
 - **出生年月**: 2003/07
 - **联系电话**: 15053817859
-- **邮箱**: 202115030224@sust.edu.cn
+- **邮箱**: yangjinming@std.uestc.edu.cn
 - **政治面貌**: 中共党员
 - **籍贯**: 山东泰安
 
@@ -54,6 +55,30 @@ redirect_from:
 排名：专业第一（1/92）（GPA：4.05/5.00）
 
 核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
+
+## <i class="fas fa-book"></i> <span id="publications">文章专利</span>
+
+### 论文发表
+- **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - CCF-A 一作、通讯作者  
+  <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
+- **Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis** (SCI四区) - 学生一作、通讯作者  
+  <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
+- **The Real-time High-voltage Switch Position Detection Method** (EI会议) - 一作、通讯作者  
+  <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
+- **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI四区) - 学生一作、通讯作者  
+  <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
+- **Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 在投) - 学生一作
+
+### 发明专利
+- **履带强度检测装置及方法** (第三发明人) - 发明授权
+- **螺旋桨扭矩检测装置及方法** (第三发明人) - 发明公开
+- **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明受理
+
+### 实用新型专利
+- **一种便于安装的计算机散热装置** (第一发明人) - 已授权
+
+### 软件著作权
+- 参与撰写项目技术相关软件著作权4项
 
 ## <i class="fas fa-briefcase"></i> <span id="projects">项目经历</span>
 ### 面向中学教师与学生的数学知识生成式智能体

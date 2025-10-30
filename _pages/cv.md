@@ -15,7 +15,7 @@ redirect_from:
 - **Gender**: Male
 - **Date of Birth**: July 2003
 - **Phone**: 15053817859
-- **Email**: 202115030224@sust.edu.cn
+- **Email**: yangjinming@std.uestc.edu.cn
 - **Political Affiliation**: Member of the Communist Party of China
 - **Place of Origin**: Taian, Shandong
 
@@ -41,6 +41,30 @@ Major: Computer Science and Technology
 Ranking: First in major (1/92) (GPA: 4.05/5.00)
 
 Core Courses: | Computer Organization and Architecture | Computer Networks | Data Structures | Digital Logic Design | Database | Algorithm Analysis | Discrete Mathematics | Linear Algebra | Java Language | C Language | Python Language
+
+## <i class="fas fa-book"></i> Publications and Patents
+
+### Journal Papers
+- **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - First author and corresponding author  
+  <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
+- **Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis** (SCI Q4) - First author and corresponding author  
+  <a href="{{ '/files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf' | absolute_url }}" target="_blank">PDF</a>
+- **The Real-time High-voltage Switch Position Detection Method** (EI Conference) - First author and corresponding author  
+  <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
+- **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI Q4) - First author and corresponding author  
+  <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
+- **Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 Under Review) - First author
+
+### Invention Patents
+- **Track Strength Detection Device and Method** (Third Inventor) - Invention Authorized
+- **Propeller Torque Detection Device and Method** (Third Inventor) - Invention Published
+- **AI Large Model-based LaTeX Beamer Teaching Document Generation Method and System** (First Inventor) - Invention Accepted
+
+### Utility Model Patents
+- **A Computer Cooling Device Facilitating Installation** (First Inventor) - Authorized
+
+### Software Copyrights
+- Participated in writing 4 software copyrights related to project technology
 
 ## <i class="fas fa-briefcase"></i> Project Experience
 
