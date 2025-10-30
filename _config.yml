@@ -29,7 +29,7 @@ author:
   location         : "Tai 'an City, Shandong Province"
   employer         : "UESTC"
   uri              : # URL
-  email            : "yangjinming@std.uestc.edu.cn" 
+  email            : "yangjinming@std.uestc.edu.cn"
 
   # Academic websites
   academia         : # URL
@@ -305,7 +305,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap  # 暂时注释掉以避免编码错误
   - jekyll-redirect-from
   - jemoji
 
