@@ -305,7 +305,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  # - jekyll-sitemap  # 暂时注释掉以避免编码错误
+  - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
