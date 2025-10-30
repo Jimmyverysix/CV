@@ -44,125 +44,27 @@ Core Courses: | Computer Organization and Architecture | Computer Networks | Dat
 
 ## <i class="fas fa-book"></i> Publications and Patents
 
-<div class="publications-grid">
-  <div class="publications-section">
-    <div class="section-header">
-      <i class="fas fa-graduation-cap"></i>
-      <h3>Journal Papers</h3>
-    </div>
-    <div class="paper-cards">
-      <div class="paper-card">
-        <div class="paper-header">
-          <span class="paper-title">EZYer: A simulacrum of high school with generative agent</span>
-          <span class="paper-venue">AgentIR, SIGIR 2025 Workshop</span>
-        </div>
-        <div class="paper-authors">First author & Corresponding author</div>
-        <div class="paper-links">
-          <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
-          <a href="https://jimmyverysix.github.io/EZYer/" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-home"></i> Home Page</a>
-          <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank" class="btn btn-danger btn-sm"><i class="fab fa-youtube"></i> Video</a>
-        </div>
-      </div>
-      
-      <div class="paper-card">
-        <div class="paper-header">
-          <span class="paper-title">Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis</span>
-          <span class="paper-venue">SCI Q4</span>
-        </div>
-        <div class="paper-authors">First author & Corresponding author</div>
-        <div class="paper-links">
-          <a href="{{ '/files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf' | absolute_url }}" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
-        </div>
-      </div>
-      
-      <div class="paper-card">
-        <div class="paper-header">
-          <span class="paper-title">The Real-time High-voltage Switch Position Detection Method</span>
-          <span class="paper-venue">EI Conference</span>
-        </div>
-        <div class="paper-authors">First author & Corresponding author</div>
-        <div class="paper-links">
-          <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
-        </div>
-      </div>
-      
-      <div class="paper-card">
-        <div class="paper-header">
-          <span class="paper-title">Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data</span>
-          <span class="paper-venue">SCI Q4</span>
-        </div>
-        <div class="paper-authors">First author & Corresponding author</div>
-        <div class="paper-links">
-          <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
-        </div>
-      </div>
-      
-      <div class="paper-card">
-        <div class="paper-header">
-          <span class="paper-title">Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model</span>
-          <span class="paper-venue">SCI (IF=2.7) Under Review</span>
-        </div>
-        <div class="paper-authors">First author</div>
-      </div>
-    </div>
-  </div>
+### Journal Papers
+- **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - First author and corresponding author  
+  <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
+- **Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis** (SCI Q4) - First author and corresponding author  
+  <a href="{{ '/files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf' | absolute_url }}" target="_blank">PDF</a>
+- **The Real-time High-voltage Switch Position Detection Method** (EI Conference) - First author and corresponding author  
+  <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
+- **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI Q4) - First author and corresponding author  
+  <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
+- **Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 Under Review) - First author
 
-  <div class="patents-section">
-    <div class="section-header">
-      <i class="fas fa-lightbulb"></i>
-      <h3>Invention Patents</h3>
-    </div>
-    <div class="patent-list">
-      <div class="patent-item">
-        <div class="patent-icon"><i class="fas fa-cogs"></i></div>
-        <div class="patent-content">
-          <div class="patent-title">Track Strength Detection Device and Method</div>
-          <div class="patent-details">Third Inventor | <span class="patent-status patented">Authorized</span></div>
-        </div>
-      </div>
-      
-      <div class="patent-item">
-        <div class="patent-icon"><i class="fas fa-tachometer-alt"></i></div>
-        <div class="patent-content">
-          <div class="patent-title">Propeller Torque Detection Device and Method</div>
-          <div class="patent-details">Third Inventor | <span class="patent-status published">Published</span></div>
-        </div>
-      </div>
-      
-      <div class="patent-item">
-        <div class="patent-icon"><i class="fas fa-robot"></i></div>
-        <div class="patent-content">
-          <div class="patent-title">AI Large Model-based LaTeX Beamer Teaching Document Generation Method and System</div>
-          <div class="patent-details">First Inventor | <span class="patent-status accepted">Accepted</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
+### Invention Patents
+- **Track Strength Detection Device and Method** (Third Inventor) - Invention Authorized
+- **Propeller Torque Detection Device and Method** (Third Inventor) - Invention Published
+- **AI Large Model-based LaTeX Beamer Teaching Document Generation Method and System** (First Inventor) - Invention Accepted
 
-  <div class="other-section">
-    <div class="section-header">
-      <i class="fas fa-copyright"></i>
-      <h3>Other Achievements</h3>
-    </div>
-    <div class="other-items">
-      <div class="other-item">
-        <div class="other-icon"><i class="fas fa-wind"></i></div>
-        <div class="other-content">
-          <div class="other-title">A Computer Cooling Device Facilitating Installation</div>
-          <div class="other-details">Utility Model Patent | First Inventor | <span class="patent-status patented">Authorized</span></div>
-        </div>
-      </div>
-      
-      <div class="other-item">
-        <div class="other-icon"><i class="fas fa-code"></i></div>
-        <div class="other-content">
-          <div class="other-title">Software Copyrights</div>
-          <div class="other-details">Participated in writing 4 software copyrights related to project technology</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+### Utility Model Patents
+- **A Computer Cooling Device Facilitating Installation** (First Inventor) - Authorized
+
+### Software Copyrights
+- Participated in writing 4 software copyrights related to project technology
 
 ## <i class="fas fa-briefcase"></i> Project Experience
 
