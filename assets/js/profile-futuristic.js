@@ -18,7 +18,21 @@
       return true;
     }
 
-    return Boolean(document.querySelector(".sci-profile-page"));
+    if (document.querySelector(".sci-profile-page")) {
+      return true;
+    }
+
+    // Front matter `classes` may not be rendered by some layouts.
+    // Fall back to explicit route matching for the two profile pages.
+    var path = (window.location && window.location.pathname) || "";
+    return (
+      path === "/" ||
+      path === "/cv/" ||
+      path === "/CV/" ||
+      path === "/CV/cv/" ||
+      path === "/CV" ||
+      path === "/CV/cv"
+    );
   }
 
   function ensureId(heading, index) {
