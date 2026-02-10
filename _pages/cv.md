@@ -9,7 +9,163 @@ redirect_from:
 
 {% include base_path %}
 
-## <i class="fas fa-id-card"></i> Personal Information
+<style>
+  .page__content {
+    --neo-bg: #081124;
+    --neo-surface: #0d1830;
+    --neo-line: rgba(120, 205, 255, 0.32);
+    --neo-text: #e6f0ff;
+    --neo-muted: #9fb7db;
+    --neo-accent: #58e3ff;
+    --neo-accent-2: #9d7bff;
+  }
+
+  .page__content {
+    color: var(--neo-text);
+    background:
+      radial-gradient(circle at 8% 0%, rgba(88, 227, 255, 0.12), transparent 36%),
+      radial-gradient(circle at 92% 8%, rgba(157, 123, 255, 0.1), transparent 32%),
+      linear-gradient(180deg, rgba(8, 17, 36, 0.98), rgba(8, 17, 36, 0.94));
+    border: 1px solid var(--neo-line);
+    border-radius: 16px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+  }
+
+  .neo-hero {
+    margin-bottom: 1.25rem;
+    padding: 1rem 1.1rem;
+    border-radius: 14px;
+    border: 1px solid var(--neo-line);
+    background: linear-gradient(125deg, rgba(17, 34, 66, 0.85), rgba(20, 22, 56, 0.82));
+    box-shadow: inset 0 0 0 1px rgba(88, 227, 255, 0.12), 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .neo-badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #081124;
+    background: linear-gradient(90deg, var(--neo-accent), #8af3ff);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 700;
+    margin-bottom: 0.55rem;
+  }
+
+  .neo-hero h2 {
+    margin: 0.2rem 0 0.45rem 0;
+    color: #f4f8ff;
+    font-size: 1.35rem;
+    border-bottom: none !important;
+    padding-bottom: 0;
+  }
+
+  .neo-hero p {
+    margin: 0.15rem 0 0.7rem 0;
+    color: var(--neo-muted);
+  }
+
+  .neo-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.45rem;
+  }
+
+  .neo-chip {
+    border: 1px solid rgba(120, 205, 255, 0.28);
+    border-radius: 999px;
+    padding: 0.2rem 0.55rem;
+    color: #cde5ff;
+    background: rgba(17, 29, 54, 0.82);
+    font-size: 0.82rem;
+  }
+
+  .page__content h2 {
+    margin-top: 1.25rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 10px;
+    border-left: 3px solid var(--neo-accent);
+    border-bottom: none;
+    background: linear-gradient(90deg, rgba(88, 227, 255, 0.16), rgba(88, 227, 255, 0.03));
+    box-shadow: inset 0 0 0 1px rgba(120, 205, 255, 0.18);
+  }
+
+  .page__content h3 {
+    margin-top: 1rem;
+    color: #dbe9ff;
+  }
+
+  .page__content ul li {
+    margin-bottom: 0.32rem;
+  }
+
+  .page__content a {
+    color: #8de9ff;
+  }
+
+  .page__content img,
+  .page__content video {
+    border-radius: 12px;
+    border: 1px solid rgba(120, 205, 255, 0.28);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .floating-toc {
+    margin-bottom: 1rem;
+    border: 1px solid var(--neo-line);
+    background: rgba(13, 24, 48, 0.82);
+    border-radius: 12px;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .toc-header {
+    font-weight: 700;
+    color: #dff5ff;
+    margin-bottom: 0.35rem;
+  }
+
+  .toc-list {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  .toc-list li a {
+    color: #bfe7ff;
+  }
+</style>
+
+<div class="neo-hero">
+  <span class="neo-badge">Academic Portfolio</span>
+  <h2>Building Intelligent Systems for Real Impact</h2>
+  <p>Focused on generative agents, digital twins, and AI for education, transforming research ideas into deployable systems and publications.</p>
+  <div class="neo-chips">
+    <span class="neo-chip">🤖 Generative Agent</span>
+    <span class="neo-chip">🌐 Digital Twin</span>
+    <span class="neo-chip">📚 AI for Education</span>
+    <span class="neo-chip">🏅 40+ Awards</span>
+  </div>
+</div>
+
+<div id="floating-toc" class="floating-toc">
+  <div class="toc-header">
+    <i class="fas fa-list"></i> Contents
+  </div>
+  <ul class="toc-list">
+    <li><a href="#basic-info">Personal Information</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#publications">Publications and Patents</a></li>
+    <li><a href="#projects">Project Experience</a></li>
+    <li><a href="#awards">Awards and Honors</a></li>
+    <li><a href="#scholarships">Scholarships</a></li>
+    <li><a href="#internships">Internship Experience</a></li>
+    <li><a href="#other-experience">Other Experiences</a></li>
+  </ul>
+</div>
+
+## <i class="fas fa-id-card"></i> <span id="basic-info">Personal Information</span>
 
 - **Name**: Yang Jinming
 - **Gender**: Male
@@ -19,7 +175,7 @@ redirect_from:
 - **Political Affiliation**: Member of the Communist Party of China
 - **Place of Origin**: Taian, Shandong
 
-## <i class="fas fa-university"></i> Education
+## <i class="fas fa-university"></i> <span id="education">Education</span>
 
 ### University of Electronic Science and Technology of China
 Master of Engineering (2025.09 - Present) (Chengdu, China)
@@ -42,7 +198,7 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 
 Core Courses: | Computer Organization and Architecture | Computer Networks | Data Structures | Digital Logic Design | Database | Algorithm Analysis | Discrete Mathematics | Linear Algebra | Java Language | C Language | Python Language
 
-## <i class="fas fa-book"></i> Publications and Patents
+## <i class="fas fa-book"></i> <span id="publications">Publications and Patents</span>
 
 ### Journal Papers
 - **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - First author and corresponding author  
@@ -66,7 +222,7 @@ Core Courses: | Computer Organization and Architecture | Computer Networks | Dat
 ### Software Copyrights
 - Participated in writing 4 software copyrights related to project technology
 
-## <i class="fas fa-briefcase"></i> Project Experience
+## <i class="fas fa-briefcase"></i> <span id="projects">Project Experience</span>
 
 ### Generative Intelligent Agent for Mathematics Knowledge in Middle School
 **Tsinghua University** Institute for AI Industry Research Winter Research Project (2024.12 - 2025.05) (Beijing, China)  
@@ -113,7 +269,7 @@ The intelligent air conditioning energy-saving system achieves energy optimizati
 
 - The project has been nationally funded under the National College Students' Innovation and Entrepreneurship Training Program (2023)
 
-## <i class="fas fa-trophy"></i> Awards and Honors
+## <i class="fas fa-trophy"></i> <span id="awards">Awards and Honors</span>
 
 A total of over 40 awards have been won, with some as follows:
 
@@ -132,7 +288,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2025.05 Third Prize in the Northwest Regional Competition of the China College Students' Computer Design Competition
 - 2023.12 Second Prize in the Shaanxi Province College Students' Industrial Design Competition
 
-## <i class="fas fa-award"></i> Scholarships
+## <i class="fas fa-award"></i> <span id="scholarships">Scholarships</span>
 
 - 2022.09 **National Scholarship** for Undergraduate Students (**First in the entire college**)
 - 2025.05 <a href="https://mp.weixin.qq.com/s/RUU_IPnF5o2ajlXkcts0LA" target="_blank">**Zhi Cheng Zhi Bo Quan You Scholarship**</a> of Shaanxi University of Science & Technology (**First in the entire university**)  
@@ -141,7 +297,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2025.05 Outstanding Student Cadre Scholarship of Shaanxi University of Science & Technology
 - 2024.05 Outstanding Student Cadre Scholarship of Shaanxi University of Science & Technology
 
-## <i class="fas fa-briefcase"></i> Internship Experience
+## <i class="fas fa-briefcase"></i> <span id="internships">Internship Experience</span>
 
 ### Isoftstone Information Technology (Group) Co.,Ltd. Xi'an Branch
 Development Intern (2024.05 - 2024.06) (Xi'an, China)
@@ -153,7 +309,7 @@ Product Intern (2024.08 - 2025.05) (Xi'an, China)
 
 Engaged in AI tool development, AI tool workflow product development, and testing the application of new AI tools in generating new media content
 
-## <i class="fas fa-user"></i> Other Experiences
+## <i class="fas fa-user"></i> <span id="other-experience">Other Experiences</span>
 
 ### Student Cadre Experience:
 - Served as Deputy Secretary of the College Party Branch, Deputy Secretary of the College Youth League (Student), Head of the Youth League Sci-Tech Department, and Class Monitor during the four years of undergraduate study

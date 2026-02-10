@@ -7,6 +7,148 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
+<style>
+  .page__content {
+    --neo-bg: #081124;
+    --neo-surface: #0d1830;
+    --neo-line: rgba(120, 205, 255, 0.32);
+    --neo-text: #e6f0ff;
+    --neo-muted: #9fb7db;
+    --neo-accent: #58e3ff;
+    --neo-accent-2: #9d7bff;
+  }
+
+  .page__content {
+    color: var(--neo-text);
+    background:
+      radial-gradient(circle at 8% 0%, rgba(88, 227, 255, 0.12), transparent 36%),
+      radial-gradient(circle at 92% 8%, rgba(157, 123, 255, 0.1), transparent 32%),
+      linear-gradient(180deg, rgba(8, 17, 36, 0.98), rgba(8, 17, 36, 0.94));
+    border: 1px solid var(--neo-line);
+    border-radius: 16px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+  }
+
+  .neo-hero {
+    margin-bottom: 1.25rem;
+    padding: 1rem 1.1rem;
+    border-radius: 14px;
+    border: 1px solid var(--neo-line);
+    background: linear-gradient(125deg, rgba(17, 34, 66, 0.85), rgba(20, 22, 56, 0.82));
+    box-shadow: inset 0 0 0 1px rgba(88, 227, 255, 0.12), 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .neo-badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #081124;
+    background: linear-gradient(90deg, var(--neo-accent), #8af3ff);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 700;
+    margin-bottom: 0.55rem;
+  }
+
+  .neo-hero h2 {
+    margin: 0.2rem 0 0.45rem 0;
+    color: #f4f8ff;
+    font-size: 1.35rem;
+    border-bottom: none !important;
+    padding-bottom: 0;
+  }
+
+  .neo-hero p {
+    margin: 0.15rem 0 0.7rem 0;
+    color: var(--neo-muted);
+  }
+
+  .neo-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.45rem;
+  }
+
+  .neo-chip {
+    border: 1px solid rgba(120, 205, 255, 0.28);
+    border-radius: 999px;
+    padding: 0.2rem 0.55rem;
+    color: #cde5ff;
+    background: rgba(17, 29, 54, 0.82);
+    font-size: 0.82rem;
+  }
+
+  .page__content h2 {
+    margin-top: 1.25rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 10px;
+    border-left: 3px solid var(--neo-accent);
+    border-bottom: none;
+    background: linear-gradient(90deg, rgba(88, 227, 255, 0.16), rgba(88, 227, 255, 0.03));
+    box-shadow: inset 0 0 0 1px rgba(120, 205, 255, 0.18);
+  }
+
+  .page__content h3 {
+    margin-top: 1rem;
+    color: #dbe9ff;
+  }
+
+  .page__content ul li {
+    margin-bottom: 0.32rem;
+  }
+
+  .page__content a {
+    color: #8de9ff;
+  }
+
+  .page__content img,
+  .page__content video {
+    border-radius: 12px;
+    border: 1px solid rgba(120, 205, 255, 0.28);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .floating-toc {
+    margin-bottom: 1rem;
+    border: 1px solid var(--neo-line);
+    background: rgba(13, 24, 48, 0.82);
+    border-radius: 12px;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .toc-header {
+    font-weight: 700;
+    color: #dff5ff;
+    margin-bottom: 0.35rem;
+  }
+
+  .toc-list {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  .toc-list li a {
+    color: #bfe7ff;
+  }
+</style>
+
+<div class="neo-hero">
+  <span class="neo-badge">Academic Portfolio</span>
+  <h2>面向智能时代的计算机研究者</h2>
+  <p>聚焦生成式智能体、数字孪生与教育智能，用系统化工程把科研想法落成可运行的产品与论文成果。</p>
+  <div class="neo-chips">
+    <span class="neo-chip">🤖 Generative Agent</span>
+    <span class="neo-chip">🌐 Digital Twin</span>
+    <span class="neo-chip">📚 AI for Education</span>
+    <span class="neo-chip">🏅 40+ Awards</span>
+  </div>
+</div>
+
 <div id="floating-toc" class="floating-toc">
   <div class="toc-header">
     <i class="fas fa-list"></i> 目录
