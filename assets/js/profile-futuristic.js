@@ -210,6 +210,70 @@
     updateProgress();
   }
 
+  function setupCursorGlow() {
+    var prefersReduced =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReduced) {
+      return;
+    }
+
+    if (document.querySelector(".sci-cursor-glow")) {
+      return;
+    }
+
+    var glow = document.createElement("div");
+    glow.className = "sci-cursor-glow";
+    document.body.appendChild(glow);
+
+    var ticking = false;
+    var lastX = 0;
+    var lastY = 0;
+
+    function update() {
+      ticking = false;
+      glow.style.transform = "translate3d(" + lastX + "px," + lastY + "px,0)";
+    }
+
+    document.addEventListener(
+      "pointermove",
+      function (e) {
+        lastX = e.clientX;
+        lastY = e.clientY;
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(update);
+        }
+      },
+      { passive: true }
+    );
+  }
+
+  function spawnSectionParticles(element) {
+    var prefersReduced =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReduced || !element) {
+      return;
+    }
+
+    var container = document.createElement("div");
+    container.className = "sci-section-particles";
+    element.appendChild(container);
+
+    for (var i = 0; i < 10; i++) {
+      var dot = document.createElement("span");
+      dot.className = "sci-particle";
+      container.appendChild(dot);
+    }
+
+    window.setTimeout(function () {
+      if (container && container.parentNode) {
+        container.parentNode.removeChild(container);
+      }
+    }, 900);
+  }
+
   ready(function () {
     if (!isSciProfilePage()) {
       return;
@@ -232,6 +296,13 @@
     wrapSections(contentRoot, headings);
     setupRevealAnimation();
     setupAmbientFx();
+    setupCursorGlow();
+
+    headings.forEach(function (h2) {
+      h2.addEventListener("click", function () {
+        spawnSectionParticles(h2.parentElement || h2);
+      });
+    });
 
     if (typeof window.initFloatingToc === "function") {
       window.initFloatingToc();

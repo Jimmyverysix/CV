@@ -213,6 +213,7 @@ body.sci-profile-active .floating-toc .toc-list a.active,
   background: rgba(132, 214, 255, 0.16);
   border-left-color: var(--sci-accent);
   color: #d9f7ff;
+  animation: sciPulse 1.4s ease-in-out infinite;
 }
 
 @media (max-width: 900px) {
@@ -329,4 +330,64 @@ body.sci-profile-active .sci-bg-orb--3,
   0% { transform: translateY(0) translateX(0) scale(1); }
   50% { transform: translateY(-18px) translateX(10px) scale(1.04); }
   100% { transform: translateY(0) translateX(0) scale(1); }
+}
+
+.sci-cursor-glow {
+  position: fixed;
+  width: 130px;
+  height: 130px;
+  margin-left: -65px;
+  margin-top: -65px;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 1600;
+  background: radial-gradient(circle, rgba(137, 237, 201, 0.4), transparent 65%);
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  transition: opacity 180ms ease;
+}
+
+.sci-section-particles {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.sci-particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #b9fff5, transparent);
+  top: 50%;
+  left: 50%;
+  animation: sciParticleDrift 900ms ease-out forwards;
+}
+
+.sci-particle:nth-child(3n) {
+  width: 4px;
+  height: 4px;
+}
+
+.sci-particle:nth-child(4n) {
+  width: 7px;
+  height: 7px;
+}
+
+@keyframes sciPulse {
+  0% { box-shadow: 0 0 0 0 rgba(137, 237, 201, 0.7); }
+  70% { box-shadow: 0 0 12px 6px rgba(137, 237, 201, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(137, 237, 201, 0); }
+}
+
+@keyframes sciParticleDrift {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(60px, -40px, 0) scale(0.4);
+  }
 }
