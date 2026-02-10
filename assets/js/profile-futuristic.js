@@ -10,7 +10,15 @@
   }
 
   function isSciProfilePage() {
-    return document.body && document.body.classList.contains("sci-profile-page");
+    if (!document.body) {
+      return false;
+    }
+
+    if (document.body.classList.contains("sci-profile-page")) {
+      return true;
+    }
+
+    return Boolean(document.querySelector(".sci-profile-page"));
   }
 
   function ensureId(heading, index) {
@@ -110,6 +118,8 @@
     if (!isSciProfilePage()) {
       return;
     }
+
+    document.body.classList.add("sci-profile-active");
 
     var contentRoot = document.querySelector(".page__content");
     if (!contentRoot) {
