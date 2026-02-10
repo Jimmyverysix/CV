@@ -50,9 +50,21 @@
     return generatedId;
   }
 
+  function getContentRoot() {
+    return document.querySelector(".page__content") || document.querySelector(".archive");
+  }
+
   function createFloatingToc(headings) {
-    if (!headings.length || document.getElementById("floating-toc")) {
-      return;
+    if (!headings.length) {
+      return null;
+    }
+
+    var existing = document.getElementById("floating-toc");
+    if (existing) {
+      if (existing.parentNode !== document.body) {
+        document.body.appendChild(existing);
+      }
+      return existing;
     }
 
     var toc = document.createElement("div");
@@ -79,6 +91,41 @@
 
     toc.appendChild(list);
     document.body.appendChild(toc);
+    return toc;
+  }
+
+  function setupTocDocking(toc) {
+    if (!toc || toc.dataset.dockReady === "1") {
+      return;
+    }
+
+    var header = toc.querySelector(".toc-header");
+    if (!header) {
+      return;
+    }
+
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "toc-toggle";
+    toggle.setAttribute("aria-label", "Toggle table of contents");
+    toggle.innerHTML = '<i class="fas fa-angle-double-right"></i>';
+    header.appendChild(toggle);
+
+    function applyResponsiveState() {
+      if (window.innerWidth < 1440) {
+        toc.classList.add("is-collapsed");
+      } else {
+        toc.classList.remove("is-collapsed");
+      }
+    }
+
+    toggle.addEventListener("click", function () {
+      toc.classList.toggle("is-collapsed");
+    });
+
+    window.addEventListener("resize", applyResponsiveState);
+    applyResponsiveState();
+    toc.dataset.dockReady = "1";
   }
 
   function wrapSections(contentRoot, headings) {
@@ -128,6 +175,41 @@
     });
   }
 
+  function setupAmbientFx() {
+    if (!document.querySelector(".sci-progress")) {
+      var progress = document.createElement("div");
+      progress.className = "sci-progress";
+      progress.innerHTML = "<span></span>";
+      document.body.appendChild(progress);
+    }
+
+    if (!document.querySelector(".sci-bg-orb")) {
+      var orb1 = document.createElement("div");
+      orb1.className = "sci-bg-orb sci-bg-orb--1";
+      var orb2 = document.createElement("div");
+      orb2.className = "sci-bg-orb sci-bg-orb--2";
+      var orb3 = document.createElement("div");
+      orb3.className = "sci-bg-orb sci-bg-orb--3";
+      document.body.appendChild(orb1);
+      document.body.appendChild(orb2);
+      document.body.appendChild(orb3);
+    }
+
+    function updateProgress() {
+      var progressInner = document.querySelector(".sci-progress span");
+      if (!progressInner) {
+        return;
+      }
+
+      var height = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = height > 0 ? (window.scrollY / height) * 100 : 0;
+      progressInner.style.width = Math.min(Math.max(ratio, 0), 100) + "%";
+    }
+
+    window.addEventListener("scroll", updateProgress, { passive: true });
+    updateProgress();
+  }
+
   ready(function () {
     if (!isSciProfilePage()) {
       return;
@@ -135,7 +217,7 @@
 
     document.body.classList.add("sci-profile-active");
 
-    var contentRoot = document.querySelector(".page__content");
+    var contentRoot = getContentRoot();
     if (!contentRoot) {
       return;
     }
@@ -145,8 +227,14 @@
       return;
     }
 
-    createFloatingToc(headings);
+    var toc = createFloatingToc(headings);
+    setupTocDocking(toc);
     wrapSections(contentRoot, headings);
     setupRevealAnimation();
+    setupAmbientFx();
+
+    if (typeof window.initFloatingToc === "function") {
+      window.initFloatingToc();
+    }
   });
 })();
