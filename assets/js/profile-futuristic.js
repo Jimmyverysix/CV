@@ -195,6 +195,15 @@
       document.body.appendChild(orb3);
     }
 
+    if (!document.querySelector(".sci-star-layer")) {
+      var starsBack = document.createElement("div");
+      starsBack.className = "sci-star-layer sci-star-layer--back";
+      var starsFront = document.createElement("div");
+      starsFront.className = "sci-star-layer sci-star-layer--front";
+      document.body.appendChild(starsBack);
+      document.body.appendChild(starsFront);
+    }
+
     function updateProgress() {
       var progressInner = document.querySelector(".sci-progress span");
       if (!progressInner) {
@@ -202,8 +211,29 @@
       }
 
       var height = document.documentElement.scrollHeight - window.innerHeight;
-      var ratio = height > 0 ? (window.scrollY / height) * 100 : 0;
+      var scrollY = window.scrollY || window.pageYOffset || 0;
+      var ratio = height > 0 ? (scrollY / height) * 100 : 0;
       progressInner.style.width = Math.min(Math.max(ratio, 0), 100) + "%";
+
+      var factor = height > 0 ? scrollY / height : 0;
+      var orbs = document.querySelectorAll(".sci-bg-orb");
+      orbs.forEach(function (orb, index) {
+        var depth = 4 + index * 4;
+        var translateY = -(factor * depth * 14);
+        orb.style.transform =
+          "translate3d(0," + translateY.toFixed(1) + "px,0) scale(1)";
+      });
+
+      var back = document.querySelector(".sci-star-layer--back");
+      var front = document.querySelector(".sci-star-layer--front");
+      if (back) {
+        back.style.transform =
+          "translate3d(0," + -(factor * 12).toFixed(1) + "px,0)";
+      }
+      if (front) {
+        front.style.transform =
+          "translate3d(0," + -(factor * 24).toFixed(1) + "px,0)";
+      }
     }
 
     window.addEventListener("scroll", updateProgress, { passive: true });

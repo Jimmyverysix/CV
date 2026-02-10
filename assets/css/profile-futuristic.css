@@ -13,10 +13,12 @@ body.sci-profile-active,
 body.sci-profile-active,
 .sci-profile-page {
   background:
-    radial-gradient(circle at 10% 20%, rgba(81, 117, 255, 0.2), transparent 28%),
-    radial-gradient(circle at 88% 16%, rgba(52, 245, 212, 0.18), transparent 24%),
-    radial-gradient(circle at 90% 80%, rgba(123, 141, 255, 0.2), transparent 26%),
-    linear-gradient(145deg, #060a16 0%, #0b1227 45%, #0e1733 100%);
+    radial-gradient(circle at 10% 15%, rgba(90, 151, 255, 0.25), transparent 30%),
+    radial-gradient(circle at 85% 20%, rgba(82, 246, 216, 0.22), transparent 26%),
+    radial-gradient(circle at 82% 80%, rgba(129, 145, 255, 0.2), transparent 32%),
+    radial-gradient(circle at 20% 85%, rgba(56, 87, 200, 0.22), transparent 30%),
+    radial-gradient(circle at 50% 40%, rgba(38, 64, 140, 0.38), rgba(6, 10, 22, 0.9) 55%),
+    linear-gradient(145deg, #040712 0%, #050b19 42%, #050b1c 100%);
   background-attachment: fixed;
 }
 
@@ -315,6 +317,33 @@ body.sci-profile-active .sci-bg-orb--3,
   animation-delay: -11s;
 }
 
+.sci-star-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.75;
+  background-repeat: repeat;
+  background-size: 260px 260px;
+  mix-blend-mode: screen;
+}
+
+.sci-star-layer--back {
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.16) 1px, transparent 1px),
+    radial-gradient(circle, rgba(143, 189, 255, 0.18) 1px, transparent 1px);
+  background-position: 0 0, 120px 80px;
+  animation: sciStarDriftBack 95s linear infinite;
+}
+
+.sci-star-layer--front {
+  background-image:
+    radial-gradient(circle, rgba(190, 244, 255, 0.95) 1.1px, transparent 1px),
+    radial-gradient(circle, rgba(113, 231, 211, 0.85) 1px, transparent 1px);
+  background-position: 60px 40px, 180px 140px;
+  animation: sciStarDriftFront 65s linear infinite;
+}
+
 @keyframes sciHeadingShine {
   0% { left: -45%; }
   65% { left: 110%; }
@@ -330,6 +359,16 @@ body.sci-profile-active .sci-bg-orb--3,
   0% { transform: translateY(0) translateX(0) scale(1); }
   50% { transform: translateY(-18px) translateX(10px) scale(1.04); }
   100% { transform: translateY(0) translateX(0) scale(1); }
+}
+
+@keyframes sciStarDriftBack {
+  0% { background-position: 0 0, 120px 80px; }
+  100% { background-position: 420px 260px, 540px 340px; }
+}
+
+@keyframes sciStarDriftFront {
+  0% { background-position: 60px 40px, 180px 140px; }
+  100% { background-position: -360px 320px, -260px 520px; }
 }
 
 .sci-cursor-glow {
