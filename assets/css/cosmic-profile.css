@@ -1,0 +1,160 @@
+/* Unified futuristic styling for about/cv pages */
+.cosmic-cv-page {
+  position: relative;
+  padding: 1.2rem 1rem 2rem;
+  border-radius: 18px;
+  background:
+    radial-gradient(1100px 520px at 10% -8%, rgba(0, 186, 255, 0.16), transparent 55%),
+    radial-gradient(900px 460px at 100% 0, rgba(121, 84, 255, 0.14), transparent 58%),
+    linear-gradient(140deg, rgba(8, 16, 36, 0.92), rgba(10, 26, 54, 0.9) 48%, rgba(6, 22, 46, 0.9));
+  border: 1px solid rgba(110, 196, 255, 0.25);
+  box-shadow:
+    0 22px 44px rgba(4, 10, 28, 0.28),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
+}
+
+.cosmic-cv-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(
+    125deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.02) 30%,
+    rgba(255, 255, 255, 0) 55%
+  );
+}
+
+.cosmic-cv-page h2,
+.cosmic-cv-page h3 {
+  position: relative;
+}
+
+.cosmic-cv-page h2 {
+  margin-top: 1.3rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 12px;
+  border: 1px solid rgba(122, 208, 255, 0.25);
+  background: linear-gradient(90deg, rgba(0, 180, 255, 0.14), rgba(126, 87, 255, 0.08) 68%, transparent);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03),
+    0 12px 20px rgba(3, 9, 24, 0.16);
+}
+
+.cosmic-cv-page h2 i {
+  margin-right: 0.35rem;
+  color: #57b8ff;
+  text-shadow: 0 0 8px rgba(87, 184, 255, 0.32);
+}
+
+.cosmic-cv-page h3 {
+  margin-top: 1.1rem;
+  padding-left: 0.6rem;
+  border-left: 3px solid rgba(87, 184, 255, 0.7);
+}
+
+.cosmic-cv-page p,
+.cosmic-cv-page li {
+  line-height: 1.8;
+}
+
+.cosmic-cv-page a {
+  text-decoration: none;
+  color: #8fd8ff;
+  border-bottom: 1px dashed rgba(143, 216, 255, 0.52);
+  transition: color 0.22s ease, border-color 0.22s ease, text-shadow 0.22s ease;
+}
+
+.cosmic-cv-page a:hover {
+  color: #cff1ff;
+  border-bottom-color: rgba(207, 241, 255, 0.85);
+  text-shadow: 0 0 12px rgba(143, 216, 255, 0.45);
+}
+
+.cosmic-cv-page img,
+.cosmic-cv-page video {
+  border-radius: 12px;
+  border: 1px solid rgba(112, 190, 255, 0.32);
+  box-shadow: 0 12px 28px rgba(2, 8, 24, 0.28);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cosmic-cv-page img:hover,
+.cosmic-cv-page video:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px rgba(2, 8, 24, 0.35);
+}
+
+.cosmic-cv-page ul {
+  padding-left: 1.2rem;
+}
+
+.cosmic-cv-page ul li::marker {
+  color: rgba(102, 201, 255, 0.92);
+}
+
+.cosmic-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.cosmic-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#cosmic-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  z-index: 1600;
+  background: linear-gradient(90deg, #30d8ff, #7d63ff);
+  box-shadow: 0 0 12px rgba(61, 201, 255, 0.55);
+}
+
+.cosmic-stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.cosmic-stars span {
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: rgba(210, 245, 255, 0.85);
+  box-shadow: 0 0 8px rgba(110, 206, 255, 0.75);
+  animation: cosmicBlink 5.5s ease-in-out infinite;
+}
+
+@keyframes cosmicBlink {
+  0%, 100% { opacity: 0.2; transform: scale(0.9); }
+  50% { opacity: 0.95; transform: scale(1.4); }
+}
+
+@media (max-width: 900px) {
+  .cosmic-cv-page {
+    padding: 0.9rem 0.85rem 1.4rem;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cosmic-stars {
+    display: none;
+  }
+
+  .cosmic-cv-page h2 {
+    padding: 0.58rem 0.72rem;
+  }
+}
