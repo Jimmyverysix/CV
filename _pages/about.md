@@ -71,8 +71,9 @@ redirect_from:
 - **Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 在投) - 学生一作
 
 ### 发明专利
-- **履带强度检测装置及方法** (第三发明人) - 发明授权
+- **履带强度检测装置及方法** (第三发明人) - 发明公开
 - **螺旋桨扭矩检测装置及方法** (第三发明人) - 发明公开
+- **适用于两栖机器人的照明系统和使用方法** (第三发明人) - 发明公开
 - **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明受理
 
 ### 实用新型专利
@@ -165,6 +166,9 @@ redirect_from:
 
 ### 学生干部经历:
 - 本科四年期间担任学院党支部副书记、学院团委副书记（学生）、院团委科创部负责人、班长
+
+### 审稿经历:
+- 担任Scientific Data、IJCNN等期刊和会议的审稿人
 
 ### 实践经历:
 - 直线计算机科技（泰安）有限公司法人、程序员客栈协作开发者、HarmonyOS应用开发者高级认证

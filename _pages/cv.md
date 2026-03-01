@@ -57,8 +57,9 @@ Core Courses: | Computer Organization and Architecture | Computer Networks | Dat
 - **Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 Under Review) - First author
 
 ### Invention Patents
-- **Track Strength Detection Device and Method** (Third Inventor) - Invention Authorized
+- **Track Strength Detection Device and Method** (Third Inventor) - Invention Published
 - **Propeller Torque Detection Device and Method** (Third Inventor) - Invention Published
+- **Lighting System and Method for Amphibious Robots** (Third Inventor) - Invention Published
 - **AI Large Model-based LaTeX Beamer Teaching Document Generation Method and System** (First Inventor) - Invention Accepted
 
 ### Utility Model Patents
@@ -158,6 +159,9 @@ Engaged in AI tool development, AI tool workflow product development, and testin
 
 ### Student Cadre Experience:
 - Served as Deputy Secretary of the College Party Branch, Deputy Secretary of the College Youth League (Student), Head of the Youth League Sci-Tech Department, and Class Monitor during the four years of undergraduate study
+
+### Peer Review Experience:
+- Serving as reviewer for journals and conferences such as Scientific Data, IJCNN, etc.
 
 ### Practical Experience:
 - Legal Representative of Zhixian Computer Science and Technology (Taian) Co., Ltd.
