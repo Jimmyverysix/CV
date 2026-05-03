@@ -161,6 +161,7 @@ body.sci-profile-active .floating-toc,
   top: 50%;
   right: clamp(10px, 2vw, 20px);
   transform: translateY(-50%);
+  overflow: visible;
   border: 1px solid var(--sci-border);
   background: linear-gradient(160deg, rgba(14, 24, 46, 0.92), rgba(9, 14, 28, 0.9));
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35), var(--sci-glow);
@@ -178,12 +179,14 @@ body.sci-profile-active .floating-toc .toc-list,
   gap: 14px;
   margin: 0;
   padding: 18px 0;
+  overflow: visible;
 }
 
 body.sci-profile-active .floating-toc .toc-list li,
 .sci-profile-page .floating-toc .toc-list li {
   margin: 0;
   padding: 0;
+  overflow: visible;
 }
 
 body.sci-profile-active .floating-toc .toc-list a,
@@ -221,6 +224,7 @@ body.sci-profile-active .floating-toc .toc-list a::after,
   letter-spacing: 0.01em;
   opacity: 0;
   pointer-events: none;
+  z-index: 10;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
   transition: opacity 180ms ease, transform 180ms ease;
 }

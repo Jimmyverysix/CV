@@ -50,8 +50,12 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
   <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI Q4) - First author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302)  
+- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - First author  
+  <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
+- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - Co-first author  
+  <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
 
 ### Invention Patents
 - **Method and System for Generating LaTeX Beamer Teaching Slides Based on Large AI Models** (First Inventor) - Published
@@ -67,6 +71,14 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 - Participated in writing 4 software copyrights related to project technology
 
 ## <i class="fas fa-briefcase"></i> Project Experience
+
+### Quantifying and Mitigating Bias in LLM-based Evaluation
+This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and develops an automated framework for measuring and mitigating such bias without relying on costly human gold annotations. The work disentangles evaluative bias from generation capability and proposes a structured multi-dimensional evaluation strategy to improve the reliability of automated assessment pipelines used in model alignment, leaderboard construction, and quality control.
+
+<embed src="{{ '/images/framework.pdf' | absolute_url }}" type="application/pdf" width="100%" height="520px" />
+
+- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - First author  
+  <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
 
 ### Generative Intelligent Agent for Mathematics Knowledge in Middle School
 **Tsinghua University** Institute for AI Industry Research Winter Research Project (2024.12 - 2025.05) (Beijing, China)  
@@ -98,7 +110,6 @@ The smart grid achieves digital transformation and optimization through the inte
 - Paper "The Real-time High-voltage Switch Position Detection Method" has been indexed by EI conference as first author and corresponding author  
   <!-- 确保 PDF 文件路径正确 -->
   <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
-- Utility model patent "A Computer Cooling Device Facilitating Installation" has been granted, with me as first inventor
 - Participated in the writing of 4 software copyrights related to project technology
 
 ### Behavioral Feature Prediction Model for Academic Performance
@@ -106,13 +117,8 @@ The prediction model constructed a machine learning ensemble model to accurately
 
 - Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by SCI (Q4) as first author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv  
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
-
-### Smart Building Air Conditioning Energy-saving System
-The intelligent air conditioning energy-saving system achieves energy optimization through the development of CO2 sensors based on MOFs, optimization of human recognition technology, and construction of thermal comfort prediction models. As a deep participant, mainly responsible for data simulation and algorithm design for prediction models.
-
-- The project has been nationally funded under the National College Students' Innovation and Entrepreneurship Training Program (2023)
 
 ## <i class="fas fa-trophy"></i> Awards and Honors
 
@@ -120,10 +126,12 @@ A total of over 40 awards have been won, with some as follows:
 
 ### National Awards:
 - 2023.10 National Funding for College Students' Innovation and Entrepreneurship Training Program
+- 2024.10 National Funding for College Students' Innovation and Entrepreneurship Training Program
 - 2023.12 Bronze Medal in the Sixth China "Internet+" Ecological Environment Innovation and Entrepreneurship Competition
 - 2022.05 Merit Award in the Fifth China "Internet+" Ecological Environment Innovation and Entrepreneurship Competition
 - 2024.11 Third Prize in the National College Students' Digital Media Technology Works and Creativity Competition
 - 2025.05 S Award in the American College Students' Mathematical Modeling Competition (Student Advisor)
+- 2025.11 Silver Prize in the 6th National College Student Algorithm Design and Programming Challenge
 
 ### Provincial and Ministerial Awards:
 - 2023.07 Silver Medal in the Ninth "Internet+" College Students' Innovation and Entrepreneurship Competition

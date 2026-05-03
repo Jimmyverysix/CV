@@ -40,7 +40,7 @@ redirect_from:
 ## <i class="fas fa-book"></i> <span id="publications">论文专利</span>
 
 ### 论文发表
-- **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - CCF-A 一作、通讯作者  
+- **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - 一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 - **Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis** (SCI四区) - 学生一作、通讯作者  
   <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
@@ -48,8 +48,12 @@ redirect_from:
   <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI四区) - 学生一作、通讯作者  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302)  
+- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - 一作  
+  <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - 通讯作者  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
+- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - 共同第一作者  
+  <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
 
 ### 发明专利
 - **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明公开
@@ -65,6 +69,14 @@ redirect_from:
 - 参与撰写项目技术相关软件著作权4项
 
 ## <i class="fas fa-briefcase"></i> <span id="projects">项目经历</span>
+### 大模型评审偏差量化与缓解
+围绕 LLM-as-a-Judge 场景中的自偏好偏差（Self-Preference Bias）开展研究，构建自动化量化框架，在无需人工金标准标注的条件下识别模型对自身生成内容的系统性偏向，并进一步设计结构化、多维度的评测策略以降低评审偏差，提升自动评测系统在模型对齐、排行榜构建与质量控制中的可靠性。
+
+<embed src="images/framework.pdf" type="application/pdf" width="100%" height="520px" />
+
+- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - 一作  
+  <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
+
 ### 面向中学教师与学生的数学知识生成式智能体
 **清华大学**智能产业研究院寒假科研项目（2024.12-2025.05）（中国，北京） 导师：<a href="https://yuanchun-li.github.io/" target="_blank">李元春</a>
 
@@ -72,7 +84,7 @@ redirect_from:
 
 担任**项目负责人**构建生成式智能体（EZYer），核心功能分为三大模块（Teacher Module、Student Module、Controller）：Teacher Module 支持一键生成符合中国高中数学教学大纲的 LaTeX Beamer，并允许用户自定义插入图片；Student Module 通过 “教师-助教-优等生-学困生-笔记记录者”的多角色协同互动，动态生成结构化学习笔记；Controller 负责对上传内容和生成内容进行内容审查，以确保生成内容符合用户要求。
 
-- 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）CCF-A 一作、通讯作者  
+- 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 
   ![论文图1](images/面向中学教师与学生的数学知识生成式智能体图2.png)
@@ -89,7 +101,6 @@ redirect_from:
   <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
 - 论文《The Real-time High-voltage Switch Position Detection Method》已检索 EI会议 一作、通讯作者  
   <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
-- 实用新型专利已授权《一种便于安装的计算机散热装置》 一作
 - 参与撰写项目技术相关软件著作权4项
 
 ### 行为特征预测成绩模型
@@ -97,13 +108,8 @@ redirect_from:
 
 - 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 SCI四区 学生一作、通讯作者
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- 论文《Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm》已发布于 arXiv  
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - 通讯作者  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
-
-### 智慧楼宇空调节能系统
-智能空调节能系统通过开发基于MOFs的CO2传感器、优化人体识别技术和构建热舒适度预测模型，实现节能优化。作为深度参与者主要负责数据模拟、预测模型算法设计等工作。
-
-- 项目获大学生创新创业训练计划**国家级立项**（2023年度）
 
 ## <i class="fas fa-trophy"></i> <span id="awards">竞赛奖项</span>
 
@@ -111,10 +117,12 @@ redirect_from:
 
 ### 国家级奖项：
 - 2023.10 获大学生创新创业训练项目国家级立项
+- 2024.10 获大学生创新创业训练项目国家级立项
 - 2023.12 获第六届中国“互联网+”生态环境创新创业大赛铜奖
 - 2022.05 获第五届中国“互联网+”生态环境创新创业大赛优秀奖
 - 2024.11 获全国大学生数字媒体科技作品及创意竞赛全国三等奖
 - 2025.05 获美国大学生数学建模竞赛S奖（Student Advisor）
+- 2025.11 获第六届全国大学生算法设计与编程挑战赛银奖
 
 ### 省部级奖项：
 - 2023.07 获第九届“互联网+”大学生创新创业大赛省级银奖
