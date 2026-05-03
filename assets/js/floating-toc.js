@@ -18,7 +18,7 @@
       return;
     }
 
-    var tocLinks = toc.querySelectorAll(".toc-list a");
+    var tocLinks = toc.querySelectorAll(".toc-list a, .toc-nav-link");
     if (!tocLinks.length) {
       return;
     }
@@ -38,7 +38,9 @@
           return;
         }
         e.preventDefault();
-        var offsetTop = target.getBoundingClientRect().top + window.pageYOffset - 96;
+        var masthead = document.querySelector(".masthead");
+        var mastheadHeight = masthead ? masthead.offsetHeight : 96;
+        var offsetTop = target.getBoundingClientRect().top + window.pageYOffset - mastheadHeight - 12;
         window.scrollTo({
           top: offsetTop,
           behavior: "smooth"
@@ -76,7 +78,7 @@
   }
 
   function initFloatingToc() {
-    bindFloatingToc(document.getElementById("floating-toc"));
+    bindFloatingToc(document.getElementById("site-nav"));
   }
 
   window.initFloatingToc = initFloatingToc;

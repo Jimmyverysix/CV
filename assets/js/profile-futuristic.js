@@ -54,8 +54,8 @@
     return document.querySelector(".page__content") || document.querySelector(".archive");
   }
 
-  function getTocMountPoint() {
-    return document.querySelector(".masthead__inner-wrap") || document.body;
+  function getNavList() {
+    return document.querySelector("#site-nav .visible-links");
   }
 
   function createFloatingToc(headings) {
@@ -63,23 +63,20 @@
       return null;
     }
 
-    var mountPoint = getTocMountPoint();
-    var existing = document.getElementById("floating-toc");
-    if (existing) {
-      if (mountPoint && existing.parentNode !== mountPoint) {
-        mountPoint.appendChild(existing);
-      }
-      return existing;
+    var navList = getNavList();
+    if (!navList) {
+      return null;
     }
 
-    var toc = document.createElement("nav");
-    toc.id = "floating-toc";
-    toc.className = "floating-toc floating-toc--top";
-    toc.setAttribute("aria-label", "Section navigation");
+    Array.prototype.slice
+      .call(document.querySelectorAll("#site-nav .toc-nav-item, #site-nav .hidden-links .toc-nav-item"))
+      .forEach(function (item) {
+        if (item && item.parentNode) {
+          item.parentNode.removeChild(item);
+        }
+      });
 
-    var list = document.createElement("ul");
-    list.className = "toc-list";
-
+    var themeToggle = navList.querySelector("#theme-toggle");
     headings.forEach(function (heading, index) {
       var id = ensureId(heading, index + 1);
       var li = document.createElement("li");
@@ -87,22 +84,32 @@
       var dot = document.createElement("span");
       var text = document.createElement("span");
       var label = heading.textContent.trim();
+      li.className = "masthead__menu-item toc-nav-item";
       a.href = "#" + id;
+      a.className = "toc-nav-link";
       a.setAttribute("aria-label", label);
       a.setAttribute("title", label);
-      dot.className = "toc-dot";
+      dot.className = "toc-nav-dot";
       dot.setAttribute("aria-hidden", "true");
-      text.className = "toc-label";
+      text.className = "toc-nav-label";
       text.textContent = label;
       a.appendChild(dot);
       a.appendChild(text);
       li.appendChild(a);
-      list.appendChild(li);
+      if (themeToggle) {
+        navList.insertBefore(li, themeToggle);
+      } else {
+        navList.appendChild(li);
+      }
     });
 
-    toc.appendChild(list);
-    mountPoint.appendChild(toc);
-    return toc;
+    if (window.jQuery) {
+      window.jQuery(window).trigger("resize");
+    } else if (typeof window.dispatchEvent === "function") {
+      window.dispatchEvent(new Event("resize"));
+    }
+
+    return navList;
   }
 
   function setupTocDocking(toc) {
