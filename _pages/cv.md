@@ -14,11 +14,7 @@ redirect_from:
 
 - **Name**: Yang Jinming
 - **Gender**: Male
-- **Date of Birth**: July 2003
-- **Phone**: 15053817859
 - **Email**: yangjinming@std.uestc.edu.cn
-- **Political Affiliation**: Member of the Communist Party of China
-- **Place of Origin**: Taian, Shandong
 
 ## <i class="fas fa-university"></i> Education
 
@@ -70,7 +66,7 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 ### Software Copyrights
 - Participated in writing 4 software copyrights related to project technology
 
-## <i class="fas fa-briefcase"></i> Project Experience
+## <i class="fas fa-briefcase"></i> Research
 
 ### Quantifying and Mitigating Bias in LLM-based Evaluation
 This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and develops an automated framework for measuring and mitigating such bias without relying on costly human gold annotations. The work disentangles evaluative bias from generation capability and proposes a structured multi-dimensional evaluation strategy to improve the reliability of automated assessment pipelines used in model alignment, leaderboard construction, and quality control.
@@ -120,7 +116,7 @@ The prediction model constructed a machine learning ensemble model to accurately
 - Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv as corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
-## <i class="fas fa-trophy"></i> Awards and Honors
+## <i class="fas fa-trophy"></i> Competitions
 
 A total of over 40 awards have been won, with some as follows:
 

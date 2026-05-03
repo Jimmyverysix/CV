@@ -12,11 +12,7 @@ redirect_from:
 
 - **姓名**: 杨金名
 - **性别**: 男
-- **出生年月**: 2003/07
-- **联系电话**: 15053817859
 - **邮箱**: yangjinming@std.uestc.edu.cn
-- **政治面貌**: 中共党员
-- **籍贯**: 山东泰安
 
 ## <i class="fas fa-university"></i> <span id="education">教育背景</span>
 
@@ -68,7 +64,7 @@ redirect_from:
 ### 软件著作权
 - 参与撰写项目技术相关软件著作权4项
 
-## <i class="fas fa-briefcase"></i> <span id="projects">项目经历</span>
+## <i class="fas fa-briefcase"></i> <span id="projects">科研</span>
 ### 大模型评审偏差量化与缓解
 围绕 LLM-as-a-Judge 场景中的自偏好偏差（Self-Preference Bias）开展研究，构建自动化量化框架，在无需人工金标准标注的条件下识别模型对自身生成内容的系统性偏向，并进一步设计结构化、多维度的评测策略以降低评审偏差，提升自动评测系统在模型对齐、排行榜构建与质量控制中的可靠性。
 
@@ -111,7 +107,7 @@ redirect_from:
 - 论文《Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm》已发布于 arXiv 通讯作者  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
-## <i class="fas fa-trophy"></i> <span id="awards">竞赛奖项</span>
+## <i class="fas fa-trophy"></i> <span id="awards">竞赛</span>
 
 累计获奖40余项，部分获奖情况如下：
 
