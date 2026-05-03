@@ -54,22 +54,27 @@
     return document.querySelector(".page__content") || document.querySelector(".archive");
   }
 
+  function getTocMountPoint() {
+    return document.querySelector(".masthead__inner-wrap") || document.body;
+  }
+
   function createFloatingToc(headings) {
     if (!headings.length) {
       return null;
     }
 
+    var mountPoint = getTocMountPoint();
     var existing = document.getElementById("floating-toc");
     if (existing) {
-      if (existing.parentNode !== document.body) {
-        document.body.appendChild(existing);
+      if (mountPoint && existing.parentNode !== mountPoint) {
+        mountPoint.appendChild(existing);
       }
       return existing;
     }
 
-    var toc = document.createElement("div");
+    var toc = document.createElement("nav");
     toc.id = "floating-toc";
-    toc.className = "floating-toc floating-toc--dots";
+    toc.className = "floating-toc floating-toc--top";
     toc.setAttribute("aria-label", "Section navigation");
 
     var list = document.createElement("ul");
@@ -96,7 +101,7 @@
     });
 
     toc.appendChild(list);
-    document.body.appendChild(toc);
+    mountPoint.appendChild(toc);
     return toc;
   }
 

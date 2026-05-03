@@ -50,9 +50,9 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
   <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI Q4) - First author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- Paper "Quantifying and Mitigating Self-Preference Bias of LLM Judges" is available on arXiv as first author  
+- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - First author  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
-- Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv as corresponding author  
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 - **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - Co-first author  
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
@@ -77,7 +77,7 @@ This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and de
 
 <embed src="{{ '/images/framework.pdf' | absolute_url }}" type="application/pdf" width="100%" height="520px" />
 
-- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - First author  
+- Paper "Quantifying and Mitigating Self-Preference Bias of LLM Judges" is available on arXiv as first author  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
 
 ### Generative Intelligent Agent for Mathematics Knowledge in Middle School
@@ -117,7 +117,7 @@ The prediction model constructed a machine learning ensemble model to accurately
 
 - Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by SCI (Q4) as first author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
+- Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv as corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
 ## <i class="fas fa-trophy"></i> Awards and Honors

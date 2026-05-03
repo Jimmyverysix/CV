@@ -157,27 +157,23 @@ body.sci-profile-active .page__content video,
 
 body.sci-profile-active .floating-toc,
 .sci-profile-page .floating-toc {
-  width: 176px;
-  top: 50%;
-  right: clamp(10px, 2vw, 20px);
-  transform: translateY(-50%);
-  border: 1px solid var(--sci-border);
-  background: linear-gradient(160deg, rgba(14, 24, 46, 0.92), rgba(9, 14, 28, 0.9));
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35), var(--sci-glow);
+  width: 100%;
+  margin-top: 0.45rem;
+  border: 1px solid rgba(130, 190, 255, 0.22);
+  background: linear-gradient(160deg, rgba(10, 18, 36, 0.78), rgba(7, 12, 24, 0.72));
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6px);
-  border-radius: 20px;
-  transition: transform 220ms ease, opacity 220ms ease, box-shadow 220ms ease;
-  z-index: 1200;
+  border-radius: 16px;
 }
 
 body.sci-profile-active .floating-toc .toc-list,
 .sci-profile-page .floating-toc .toc-list {
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 10px;
   margin: 0;
-  padding: 16px 12px;
+  padding: 10px 12px;
 }
 
 body.sci-profile-active .floating-toc .toc-list li,
@@ -191,9 +187,8 @@ body.sci-profile-active .floating-toc .toc-list a,
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  width: 100%;
-  min-height: 36px;
-  padding: 0.55rem 0.7rem;
+  min-height: 32px;
+  padding: 0.45rem 0.8rem;
   border-radius: 999px;
   border: 1px solid rgba(174, 235, 255, 0.14);
   background: rgba(138, 186, 255, 0.08);
@@ -217,13 +212,10 @@ body.sci-profile-active .floating-toc .toc-dot,
 body.sci-profile-active .floating-toc .toc-label,
 .sci-profile-page .floating-toc .toc-label {
   display: block;
-  min-width: 0;
-  font-size: 0.83rem;
-  line-height: 1.25;
+  font-size: 0.8rem;
+  line-height: 1;
   color: inherit;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 body.sci-profile-active .floating-toc .toc-list a:hover,
@@ -231,7 +223,6 @@ body.sci-profile-active .floating-toc .toc-list a.active,
 .sci-profile-page .floating-toc .toc-list a:focus-visible,
 .sci-profile-page .floating-toc .toc-list a:hover,
 .sci-profile-page .floating-toc .toc-list a.active {
-  transform: translateX(-4px);
   background: linear-gradient(120deg, rgba(102, 226, 255, 0.22), rgba(138, 247, 213, 0.18));
   border-color: rgba(214, 253, 255, 0.42);
   box-shadow: 0 0 0 1px rgba(102, 226, 255, 0.1), 0 0 16px rgba(102, 226, 255, 0.24);
@@ -262,8 +253,7 @@ body.sci-profile-active .floating-toc .toc-list a.active .toc-dot,
 
   body.sci-profile-active .floating-toc,
   .sci-profile-page .floating-toc {
-    width: 140px;
-    right: 8px;
+    margin-top: 0.35rem;
   }
 
   body.sci-profile-active .floating-toc .toc-list,
@@ -276,30 +266,19 @@ body.sci-profile-active .floating-toc .toc-list a.active .toc-dot,
 @media (max-width: 640px) {
   body.sci-profile-active .floating-toc,
   .sci-profile-page .floating-toc {
-    width: 48px;
-    border-radius: 999px;
+    border-radius: 14px;
   }
 
   body.sci-profile-active .floating-toc .toc-list,
   .sci-profile-page .floating-toc .toc-list {
-    align-items: center;
-    padding: 14px 0;
+    gap: 6px;
+    padding: 10px;
   }
 
   body.sci-profile-active .floating-toc .toc-list a,
   .sci-profile-page .floating-toc .toc-list a {
-    width: 16px;
-    min-height: 16px;
-    padding: 0;
-    justify-content: center;
-    background: transparent;
-    border-color: transparent;
-    box-shadow: none;
-  }
-
-  body.sci-profile-active .floating-toc .toc-label,
-  .sci-profile-page .floating-toc .toc-label {
-    display: none;
+    min-height: 28px;
+    padding: 0.35rem 0.65rem;
   }
 }
 
