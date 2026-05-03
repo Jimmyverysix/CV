@@ -8,12 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## <i class="fas fa-graduation-cap"></i> <span id="basic-info">基本信息</span>
-
-- **姓名**: 杨金名
-- **性别**: 男
-- **邮箱**: yangjinming@std.uestc.edu.cn
-
 ## <i class="fas fa-university"></i> <span id="education">教育背景</span>
 
 ### 电子科技大学（University of Electronic Science and Technology of China）

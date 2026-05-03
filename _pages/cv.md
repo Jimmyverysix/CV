@@ -10,12 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-## <i class="fas fa-id-card"></i> Personal Information
-
-- **Name**: Yang Jinming
-- **Gender**: Male
-- **Email**: yangjinming@std.uestc.edu.cn
-
 ## <i class="fas fa-university"></i> Education
 
 ### University of Electronic Science and Technology of China
