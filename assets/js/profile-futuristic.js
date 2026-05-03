@@ -69,12 +69,8 @@
 
     var toc = document.createElement("div");
     toc.id = "floating-toc";
-    toc.className = "floating-toc";
-
-    var header = document.createElement("div");
-    header.className = "toc-header";
-    header.innerHTML = '<i class="fas fa-list"></i> Contents';
-    toc.appendChild(header);
+    toc.className = "floating-toc floating-toc--dots";
+    toc.setAttribute("aria-label", "Section navigation");
 
     var list = document.createElement("ul");
     list.className = "toc-list";
@@ -83,8 +79,12 @@
       var id = ensureId(heading, index + 1);
       var li = document.createElement("li");
       var a = document.createElement("a");
+      var label = heading.textContent.trim();
       a.href = "#" + id;
-      a.textContent = heading.textContent.trim();
+      a.setAttribute("aria-label", label);
+      a.setAttribute("title", label);
+      a.setAttribute("data-label", label);
+      a.textContent = label;
       li.appendChild(a);
       list.appendChild(li);
     });
@@ -98,33 +98,6 @@
     if (!toc || toc.dataset.dockReady === "1") {
       return;
     }
-
-    var header = toc.querySelector(".toc-header");
-    if (!header) {
-      return;
-    }
-
-    var toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.className = "toc-toggle";
-    toggle.setAttribute("aria-label", "Toggle table of contents");
-    toggle.innerHTML = '<i class="fas fa-angle-double-right"></i>';
-    header.appendChild(toggle);
-
-    function applyResponsiveState() {
-      if (window.innerWidth < 1440) {
-        toc.classList.add("is-collapsed");
-      } else {
-        toc.classList.remove("is-collapsed");
-      }
-    }
-
-    toggle.addEventListener("click", function () {
-      toc.classList.toggle("is-collapsed");
-    });
-
-    window.addEventListener("resize", applyResponsiveState);
-    applyResponsiveState();
     toc.dataset.dockReady = "1";
   }
 

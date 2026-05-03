@@ -157,66 +157,92 @@ body.sci-profile-active .page__content video,
 
 body.sci-profile-active .floating-toc,
 .sci-profile-page .floating-toc {
-  width: 236px;
-  max-width: calc(100vw - 24px);
-  top: 84px;
-  right: clamp(10px, 2vw, 24px);
+  width: 56px;
+  top: 50%;
+  right: clamp(10px, 2vw, 20px);
+  transform: translateY(-50%);
   border: 1px solid var(--sci-border);
   background: linear-gradient(160deg, rgba(14, 24, 46, 0.92), rgba(9, 14, 28, 0.9));
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35), var(--sci-glow);
   backdrop-filter: blur(6px);
-  transition: width 220ms ease, transform 220ms ease, opacity 220ms ease;
+  border-radius: 999px;
+  transition: transform 220ms ease, opacity 220ms ease, box-shadow 220ms ease;
+  z-index: 1200;
 }
 
-body.sci-profile-active .floating-toc .toc-header,
-.sci-profile-page .floating-toc .toc-header {
+body.sci-profile-active .floating-toc .toc-list,
+.sci-profile-page .floating-toc .toc-list {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
+  gap: 14px;
+  margin: 0;
+  padding: 18px 0;
 }
 
-body.sci-profile-active .floating-toc .toc-header,
-.sci-profile-page .floating-toc .toc-header {
-  background: linear-gradient(120deg, rgba(86, 147, 255, 0.9), rgba(88, 197, 255, 0.75));
+body.sci-profile-active .floating-toc .toc-list li,
+.sci-profile-page .floating-toc .toc-list li {
+  margin: 0;
+  padding: 0;
 }
 
-body.sci-profile-active .floating-toc .toc-toggle,
-.sci-profile-page .floating-toc .toc-toggle {
-  width: 26px;
-  height: 26px;
-  border: 1px solid rgba(225, 247, 255, 0.55);
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.18);
-  color: #ebfdff;
-  cursor: pointer;
+body.sci-profile-active .floating-toc .toc-list a,
+.sci-profile-page .floating-toc .toc-list a {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border-radius: 999px;
+  border: 2px solid rgba(174, 235, 255, 0.72);
+  background: rgba(138, 186, 255, 0.2);
+  box-shadow: 0 0 0 4px rgba(90, 151, 255, 0.08);
+  text-decoration: none;
+  font-size: 0;
+  color: transparent;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
-body.sci-profile-active .floating-toc.is-collapsed,
-.sci-profile-page .floating-toc.is-collapsed {
-  width: 52px;
-  overflow: hidden;
-}
-
-body.sci-profile-active .floating-toc.is-collapsed .toc-list,
-.sci-profile-page .floating-toc.is-collapsed .toc-list {
+body.sci-profile-active .floating-toc .toc-list a::after,
+.sci-profile-page .floating-toc .toc-list a::after {
+  content: attr(data-label);
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 14px);
+  transform: translateY(-50%) translateX(6px);
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(174, 235, 255, 0.32);
+  background: rgba(5, 10, 22, 0.92);
+  color: #eefcff;
+  font-size: 0.82rem;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
   opacity: 0;
   pointer-events: none;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  transition: opacity 180ms ease, transform 180ms ease;
 }
 
-body.sci-profile-active .floating-toc.is-collapsed .toc-toggle i,
-.sci-profile-page .floating-toc.is-collapsed .toc-toggle i {
-  transform: rotate(180deg);
+body.sci-profile-active .floating-toc .toc-list a:hover::after,
+body.sci-profile-active .floating-toc .toc-list a:focus-visible::after,
+.sci-profile-page .floating-toc .toc-list a:hover::after,
+.sci-profile-page .floating-toc .toc-list a:focus-visible::after {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
 }
 
 body.sci-profile-active .floating-toc .toc-list a:hover,
 body.sci-profile-active .floating-toc .toc-list a.active,
+.sci-profile-page .floating-toc .toc-list a:focus-visible,
 .sci-profile-page .floating-toc .toc-list a:hover,
 .sci-profile-page .floating-toc .toc-list a.active {
-  background: rgba(132, 214, 255, 0.16);
-  border-left-color: var(--sci-accent);
+  transform: scale(1.18);
+  background: linear-gradient(180deg, #8af7d5, #66e2ff);
+  border-color: #d6fdff;
+  box-shadow: 0 0 0 5px rgba(102, 226, 255, 0.2), 0 0 16px rgba(102, 226, 255, 0.45);
   color: #d9f7ff;
-  animation: sciPulse 1.4s ease-in-out infinite;
 }
 
 @media (max-width: 900px) {
@@ -232,23 +258,19 @@ body.sci-profile-active .floating-toc .toc-list a.active,
 
   body.sci-profile-active .floating-toc,
   .sci-profile-page .floating-toc {
-    top: auto;
-    bottom: 16px;
-    right: 12px;
-    width: min(236px, calc(100vw - 24px));
-    max-height: min(52vh, 420px);
+    width: 52px;
+    right: 8px;
   }
 
-  body.sci-profile-active .floating-toc.is-collapsed,
-  .sci-profile-page .floating-toc.is-collapsed {
-    width: min(236px, calc(100vw - 24px));
-    overflow: visible;
-    transform: translateX(calc(100% - 52px));
+  body.sci-profile-active .floating-toc .toc-list,
+  .sci-profile-page .floating-toc .toc-list {
+    gap: 12px;
+    padding: 16px 0;
   }
 
-  body.sci-profile-active .floating-toc.is-collapsed .toc-header,
-  .sci-profile-page .floating-toc.is-collapsed .toc-header {
-    border-radius: 12px 0 0 12px;
+  body.sci-profile-active .floating-toc .toc-list a::after,
+  .sci-profile-page .floating-toc .toc-list a::after {
+    display: none;
   }
 }
 

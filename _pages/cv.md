@@ -50,7 +50,8 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
   <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI Q4) - First author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 Under Review) - First author
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302)  
+  <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
 ### Invention Patents
 - **Method and System for Generating LaTeX Beamer Teaching Slides Based on Large AI Models** (First Inventor) - Published
@@ -105,7 +106,8 @@ The prediction model constructed a machine learning ensemble model to accurately
 
 - Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by SCI (Q4) as first author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- Paper "Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model" is under review for SCI with IF=2.7 as first author
+- Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv  
+  <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
 ### Smart Building Air Conditioning Energy-saving System
 The intelligent air conditioning energy-saving system achieves energy optimization through the development of CO2 sensors based on MOFs, optimization of human recognition technology, and construction of thermal comfort prediction models. As a deep participant, mainly responsible for data simulation and algorithm design for prediction models.

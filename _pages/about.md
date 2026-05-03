@@ -8,22 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<div id="floating-toc" class="floating-toc">
-  <div class="toc-header">
-    <i class="fas fa-list"></i> 目录
-  </div>
-  <ul class="toc-list">
-    <li><a href="#basic-info">基本信息</a></li>
-    <li><a href="#education">教育背景</a></li>
-    <li><a href="#publications">论文专利</a></li>
-    <li><a href="#projects">项目经历</a></li>
-    <li><a href="#awards">竞赛奖项</a></li>
-    <li><a href="#scholarships">奖学金</a></li>
-    <li><a href="#internships">实习经历</a></li>
-    <li><a href="#other-experience">其他经历</a></li>
-  </ul>
-</div>
-
 ## <i class="fas fa-graduation-cap"></i> <span id="basic-info">基本信息</span>
 
 - **姓名**: 杨金名
@@ -64,7 +48,8 @@ redirect_from:
   <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI四区) - 学生一作、通讯作者  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 在投) - 学生一作
+- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302)  
+  <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
 ### 发明专利
 - **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明公开
@@ -112,7 +97,8 @@ redirect_from:
 
 - 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 SCI四区 学生一作、通讯作者
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- 论文《Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model》在投 SCI IF=2.7 学生一作
+- 论文《Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm》已发布于 arXiv  
+  <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
 ### 智慧楼宇空调节能系统
 智能空调节能系统通过开发基于MOFs的CO2传感器、优化人体识别技术和构建热舒适度预测模型，实现节能优化。作为深度参与者主要负责数据模拟、预测模型算法设计等工作。
