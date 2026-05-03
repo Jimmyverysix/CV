@@ -41,7 +41,7 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 
 ## <i class="fas fa-book"></i> Publications and Patents
 
-### Journal Papers
+### Papers
 - **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - First author and corresponding author  
   <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 - **Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis** (SCI Q4) - First author and corresponding author  
@@ -50,9 +50,9 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
   <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI Q4) - First author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - First author  
+- Paper "Quantifying and Mitigating Self-Preference Bias of LLM Judges" is available on arXiv as first author  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
-- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
+- Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv as corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 - **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - Co-first author  
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>

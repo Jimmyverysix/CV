@@ -48,9 +48,9 @@ redirect_from:
   <a href="files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf" target="_blank">PDF</a>
 - **Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data** (SCI四区) - 学生一作、通讯作者  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
-- **Quantifying and Mitigating Self-Preference Bias of LLM Judges** (arXiv: 2604.22891) - 一作  
+- 论文《Quantifying and Mitigating Self-Preference Bias of LLM Judges》已发布于 arXiv 一作  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
-- **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - 通讯作者  
+- 论文《Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm》已发布于 arXiv 通讯作者  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 - **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - 共同第一作者  
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
