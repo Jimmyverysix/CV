@@ -46,16 +46,12 @@ redirect_from:
 
 **一等**荣誉学位
 
-核心课程：Full-stack Strategies and Development｜Cloud Native Development｜Data Analytics｜Machine Learning and Pattern Recognition
-
 ### 陕西科技大学（Shaanxi University of Science & Technology）
 工学学士 （2021.09-2025.06）（中国，西安）
 
 专业：计算机科学与技术
 
 排名：专业第一（1/92）（GPA：4.05/5.00）
-
-核心课程：计算机组成原理｜计算机网络｜数据结构｜数字逻辑设计｜数据库｜算法分析｜离散数学｜线性代数｜Java语言｜C语言｜Python语言
 
 ## <i class="fas fa-book"></i> <span id="publications">论文专利</span>
 
@@ -71,10 +67,11 @@ redirect_from:
 - **Practice of Enhancing Employment Ability of Sino foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 在投) - 学生一作
 
 ### 发明专利
-- **履带强度检测装置及方法** (第三发明人) - 发明公开
+- **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明公开
+- **履带强度检测装置及方法** (第三发明人) - 已授权
 - **螺旋桨扭矩检测装置及方法** (第三发明人) - 发明公开
 - **适用于两栖机器人的照明系统和使用方法** (第三发明人) - 发明公开
-- **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明受理
+- **一种基于深度学习视觉分割的吊装沙袋破裂识别方法与系统** (第四发明人) - 发明公开
 
 ### 实用新型专利
 - **一种便于安装的计算机散热装置** (第一发明人) - 已授权

@@ -33,15 +33,11 @@ Bachelor of Engineering (2024.09 - 2025.06) (Belfast, United Kingdom)
 
 BACHELOR OF ENGINEERING with **first class** honours
 
-Core Courses: | Full-stack Strategies and Development | Cloud Native Development | Data Analytics | Machine Learning and Pattern Recognition
-
 ### Shaanxi University of Science & Technology
 Bachelor of Engineering (2021.09 - 2025.06) (Xi'an, China)
 
 Major: Computer Science and Technology  
 Ranking: First in major (1/92) (GPA: 4.05/5.00)
-
-Core Courses: | Computer Organization and Architecture | Computer Networks | Data Structures | Digital Logic Design | Database | Algorithm Analysis | Discrete Mathematics | Linear Algebra | Java Language | C Language | Python Language
 
 ## <i class="fas fa-book"></i> Publications and Patents
 
@@ -57,13 +53,14 @@ Core Courses: | Computer Organization and Architecture | Computer Networks | Dat
 - **Practice of Enhancing Employment Ability of Sino Foreign Cooperative Education Students Based on K-means Model** (SCI IF=2.7 Under Review) - First author
 
 ### Invention Patents
-- **Track Strength Detection Device and Method** (Third Inventor) - Invention Published
-- **Propeller Torque Detection Device and Method** (Third Inventor) - Invention Published
-- **Lighting System and Method for Amphibious Robots** (Third Inventor) - Invention Published
-- **AI Large Model-based LaTeX Beamer Teaching Document Generation Method and System** (First Inventor) - Invention Accepted
+- **Method and System for Generating LaTeX Beamer Teaching Slides Based on Large AI Models** (First Inventor) - Published
+- **Track Strength Detection Device and Method** (Third Inventor) - Granted
+- **Propeller Torque Detection Device and Method** (Third Inventor) - Published
+- **Lighting System and Method for Amphibious Robots** (Third Inventor) - Published
+- **Deep Learning-based Visual Segmentation Method and System for Hoisting Sandbag Rupture Detection** (Fourth Inventor) - Published
 
 ### Utility Model Patents
-- **A Computer Cooling Device Facilitating Installation** (First Inventor) - Authorized
+- **A Computer Cooling Device Facilitating Installation** (First Inventor) - Granted
 
 ### Software Copyrights
 - Participated in writing 4 software copyrights related to project technology
@@ -100,7 +97,7 @@ The smart grid achieves digital transformation and optimization through the inte
 - Paper "The Real-time High-voltage Switch Position Detection Method" has been indexed by EI conference as first author and corresponding author  
   <!-- 确保 PDF 文件路径正确 -->
   <a href="{{ '/files/The_Real-Time_High-Voltage_Switch_Position_Detection_Method.pdf' | absolute_url }}" target="_blank">PDF</a>
-- Utility model patent has been authorized "A Computer Cooling Device Facilitating Installation" as first author
+- Utility model patent "A Computer Cooling Device Facilitating Installation" has been granted, with me as first inventor
 - Participated in the writing of 4 software copyrights related to project technology
 
 ### Behavioral Feature Prediction Model for Academic Performance

@@ -158,6 +158,7 @@ body.sci-profile-active .page__content video,
 body.sci-profile-active .floating-toc,
 .sci-profile-page .floating-toc {
   width: 236px;
+  max-width: calc(100vw - 24px);
   top: 84px;
   right: clamp(10px, 2vw, 24px);
   border: 1px solid var(--sci-border);
@@ -234,7 +235,20 @@ body.sci-profile-active .floating-toc .toc-list a.active,
     top: auto;
     bottom: 16px;
     right: 12px;
+    width: min(236px, calc(100vw - 24px));
     max-height: min(52vh, 420px);
+  }
+
+  body.sci-profile-active .floating-toc.is-collapsed,
+  .sci-profile-page .floating-toc.is-collapsed {
+    width: min(236px, calc(100vw - 24px));
+    overflow: visible;
+    transform: translateX(calc(100% - 52px));
+  }
+
+  body.sci-profile-active .floating-toc.is-collapsed .toc-header,
+  .sci-profile-page .floating-toc.is-collapsed .toc-header {
+    border-radius: 12px 0 0 12px;
   }
 }
 
