@@ -1,0 +1,14 @@
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+kramdown:
+  input: Kramdown

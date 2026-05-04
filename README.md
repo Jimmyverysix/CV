@@ -52,6 +52,22 @@ When you are initially working on your website, it is very useful to be able to 
 1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
     You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
 
+### Local preview shortcut for this repo
+
+This repository already includes a local `vendor/bundle` with the gems needed for a lightweight preview flow. If your system Ruby/Bundler setup is flaky, you can use:
+
+```bash
+cd .github.io
+./scripts/preview-local.sh
+```
+
+This path:
+
+1. reuses the checked-in local gem bundle,
+1. skips optional plugins that are not needed for editing the homepage locally,
+1. builds the site, and
+1. serves `_site` at `http://localhost:4000` with Python's built-in static server.
+
 If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
 ## Using Docker

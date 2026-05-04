@@ -19,7 +19,6 @@ body.sci-profile-active,
     radial-gradient(circle at 20% 85%, rgba(56, 87, 200, 0.22), transparent 30%),
     radial-gradient(circle at 50% 40%, rgba(38, 64, 140, 0.38), rgba(6, 10, 22, 0.9) 55%),
     linear-gradient(145deg, #040712 0%, #050b19 42%, #050b1c 100%);
-  background-attachment: fixed;
 }
 
 body.sci-profile-active::before,
@@ -30,8 +29,7 @@ body.sci-profile-active::before,
   pointer-events: none;
   z-index: 0;
   background: linear-gradient(120deg, transparent 0%, rgba(123, 141, 255, 0.06) 45%, transparent 100%);
-  background-size: 200% 100%;
-  animation: sciSweep 14s linear infinite;
+  background-size: 100% 100%;
 }
 
 body.sci-profile-active .initial-content,
@@ -57,7 +55,7 @@ body.sci-profile-active .initial-content::before,
 
 body.sci-profile-active .page__content,
 .sci-profile-page .page__content {
-  backdrop-filter: blur(2px);
+  backdrop-filter: none;
 }
 
 body.sci-profile-active .page__content h2,

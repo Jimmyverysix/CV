@@ -316,14 +316,6 @@
     setupTocDocking(toc);
     wrapSections(contentRoot, headings);
     setupRevealAnimation();
-    setupAmbientFx();
-    setupCursorGlow();
-
-    headings.forEach(function (h2) {
-      h2.addEventListener("click", function () {
-        spawnSectionParticles(h2.parentElement || h2);
-      });
-    });
 
     if (typeof window.initFloatingToc === "function") {
       window.initFloatingToc();

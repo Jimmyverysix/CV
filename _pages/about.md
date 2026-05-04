@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+## <i class="fas fa-envelope"></i> <span id="contact">联系方式</span>
+
+- **邮箱**: <a href="mailto:yangjinming@std.uestc.edu.cn">yangjinming@std.uestc.edu.cn</a>
+
 ## <i class="fas fa-university"></i> <span id="education">教育背景</span>
 
 ### 电子科技大学（University of Electronic Science and Technology of China）
@@ -42,7 +46,7 @@ redirect_from:
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
 - **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - 通讯作者  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
-- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - 共同第一作者  
+- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - 共一第一  
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
 
 ### 发明专利
@@ -62,7 +66,7 @@ redirect_from:
 ### 大模型评审偏差量化与缓解
 围绕 LLM-as-a-Judge 场景中的自偏好偏差（Self-Preference Bias）开展研究，构建自动化量化框架，在无需人工金标准标注的条件下识别模型对自身生成内容的系统性偏向，并进一步设计结构化、多维度的评测策略以降低评审偏差，提升自动评测系统在模型对齐、排行榜构建与质量控制中的可靠性。
 
-<embed src="images/framework.pdf" type="application/pdf" width="100%" height="520px" />
+<img src="images/framework-preview.jpg" alt="大模型评审偏差量化与缓解项目预览图" loading="lazy" />
 
 - 论文《Quantifying and Mitigating Self-Preference Bias of LLM Judges》已发布于 arXiv 一作  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
@@ -70,22 +74,19 @@ redirect_from:
 ### 面向中学教师与学生的数学知识生成式智能体
 **清华大学**智能产业研究院寒假科研项目（2024.12-2025.05）（中国，北京） 导师：<a href="https://yuanchun-li.github.io/" target="_blank">李元春</a>
 
-![项目架构图](images/面向中学教师与学生的数学知识生成式智能体图1.png)
+<img src="images/ezyer-project.jpg" alt="EZYer 项目架构图" loading="lazy" />
 
 担任**项目负责人**构建生成式智能体（EZYer），核心功能分为三大模块（Teacher Module、Student Module、Controller）：Teacher Module 支持一键生成符合中国高中数学教学大纲的 LaTeX Beamer，并允许用户自定义插入图片；Student Module 通过 “教师-助教-优等生-学困生-笔记记录者”的多角色协同互动，动态生成结构化学习笔记；Controller 负责对上传内容和生成内容进行内容审查，以确保生成内容符合用户要求。
 
 - 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 
-  ![论文图1](images/面向中学教师与学生的数学知识生成式智能体图2.png)
+  <img src="images/ezyer-paper.jpg" alt="EZYer 论文图示" loading="lazy" />
 
 ### 数字孪生电网
-智能电网通过数字孪生技术与机器学习、实时云通讯、边缘计算的结合，实现其数字化转型与优化。担任**项目负责人**负责数字孪生平台的搭建、变电站选址机器学习模型（层次聚类、遗传算法）的构建、撰写多篇论文。
+围绕智能电网规划与选址决策，构建融合负荷分布、土地利用、邻域约束与成本因素的数字孪生分析框架，并将机器学习与优化算法引入变电站选址过程。担任**项目负责人**，负责数字孪生平台搭建、仿真数据流程设计、层次聚类与遗传算法等模型构建，以及论文撰写与成果整理。
 
-<video controls width="50%">
-  <source src="images/视频1.mp4" type="video/mp4">
-  您的浏览器不支持 video 标签。
-</video>
+<img src="images/digital-twin-preview.jpg" alt="数字孪生电网项目预览图" loading="lazy" />
 
 - 论文《Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis》已检索 SCI四区 学生一作、通讯作者  
   <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
@@ -94,7 +95,9 @@ redirect_from:
 - 参与撰写项目技术相关软件著作权4项
 
 ### 行为特征预测成绩模型
-预测模型构建了机器学习集成模型，精准预测高校学生的学业成绩，实现高效学生管理。担任**项目负责人**从事算法模型设计、构建集成模型（融合了K-means聚类、Apriori算法、随机森林、梯度提升树和XGBoost等机器学习算法）。
+面向高校学生行为数据分析与个体发展路径建模，构建结合聚类、关联规则挖掘与集成学习的预测框架，实现学业表现预测与学生特征分群。担任**项目负责人**，负责算法方案设计、K-means 用户分群、Apriori 特征关联分析，以及随机森林、梯度提升树和 XGBoost 等模型集成与实验验证。
+
+<img src="images/performance-model-preview.jpg" alt="行为特征预测成绩模型项目预览图" loading="lazy" />
 
 - 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 SCI四区 学生一作、通讯作者
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
@@ -152,4 +155,4 @@ redirect_from:
 - 担任Scientific Data、IJCNN等期刊和会议的审稿人
 
 ### 实践经历:
-- 直线计算机科技（泰安）有限公司法人、程序员客栈协作开发者、HarmonyOS应用开发者高级认证
+- 直线计算机科技（泰安）有限公司总经理、程序员客栈协作开发者、HarmonyOS应用开发者高级认证

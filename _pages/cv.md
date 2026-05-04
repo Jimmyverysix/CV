@@ -10,6 +10,10 @@ redirect_from:
 
 {% include base_path %}
 
+## <i class="fas fa-envelope"></i> Contact
+
+- **Email**: <a href="mailto:yangjinming@std.uestc.edu.cn">yangjinming@std.uestc.edu.cn</a>
+
 ## <i class="fas fa-university"></i> Education
 
 ### University of Electronic Science and Technology of China
@@ -44,7 +48,7 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
 - **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
-- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - Co-first author  
+- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - First-listed co-first author  
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
 
 ### Invention Patents
@@ -65,7 +69,7 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 ### Quantifying and Mitigating Bias in LLM-based Evaluation
 This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and develops an automated framework for measuring and mitigating such bias without relying on costly human gold annotations. The work disentangles evaluative bias from generation capability and proposes a structured multi-dimensional evaluation strategy to improve the reliability of automated assessment pipelines used in model alignment, leaderboard construction, and quality control.
 
-<embed src="{{ '/images/framework.pdf' | absolute_url }}" type="application/pdf" width="100%" height="520px" />
+<img src="{{ '/images/framework-preview.jpg' | absolute_url }}" alt="Project overview for LLM judge bias mitigation" loading="lazy" />
 
 - Paper "Quantifying and Mitigating Self-Preference Bias of LLM Judges" is available on arXiv as first author  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
@@ -74,8 +78,7 @@ This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and de
 **Tsinghua University** Institute for AI Industry Research Winter Research Project (2024.12 - 2025.05) (Beijing, China)  
 Supervisor: <a href="https://yuanchun-li.github.io/" target="_blank">Yuanchun Li</a>
 
-<!-- 确保图片路径正确 -->
-![Project Architecture Diagram]({{ '/images/面向中学教师与学生的数学知识生成式智能体图1.png' | absolute_url }})
+<img src="{{ '/images/ezyer-project.jpg' | absolute_url }}" alt="Project architecture diagram for EZYer" loading="lazy" />
 
 As **Project Leader**, constructed a generative intelligent agent (EZYer), with core functions divided into three modules (Teacher Module, Student Module, Controller): The Teacher Module supports one-click generation of LaTeX Beamer lecture notes compliant with the Chinese high school mathematics curriculum, allowing users to customize the insertion of images; The Student Module dynamically generates structured learning notes through multi-role collaborative interaction between "teacher - teaching assistant - top student - struggling student - note taker"; The Controller is responsible for content review of uploaded and generated content to ensure compliance with user requirements.
 
@@ -83,16 +86,12 @@ As **Project Leader**, constructed a generative intelligent agent (EZYer), with 
   <!-- 确保 PDF 文件路径正确 -->
   <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 
-  <!-- 确保图片路径正确 -->
-  ![Paper Figure 1]({{ '/images/面向中学教师与学生的数学知识生成式智能体图2.png' | absolute_url }})
+  <img src="{{ '/images/ezyer-paper.jpg' | absolute_url }}" alt="Paper figure for EZYer" loading="lazy" />
 
 ### Digital Twin Smart Grid
-The smart grid achieves digital transformation and optimization through the integration of digital twin technology with machine learning, real-time cloud communication, and edge computing. As **Project Leader**, responsible for the construction of the digital twin platform, the development of the machine learning model for substation siting (hierarchical clustering, genetic algorithm), and the writing of multiple papers.
+This project focuses on digital twin-enabled planning and siting for smart grids by integrating load distribution, land-use constraints, neighborhood factors, and cost analysis into a unified simulation framework. As **Project Leader**, I was responsible for building the digital twin platform, designing the simulation data pipeline, developing substation siting models based on hierarchical clustering and genetic algorithms, and consolidating the resulting research outputs.
 
-<video controls width="50%">
-  <source src="{{ '/images/视频1.mp4' | absolute_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="{{ '/images/digital-twin-preview.jpg' | absolute_url }}" alt="Project preview for digital twin smart grid" loading="lazy" />
 
 - Paper "Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis" has been indexed by SCI (Q4) as first author and corresponding author  
   <!-- 确保 PDF 文件路径正确 -->
@@ -103,7 +102,9 @@ The smart grid achieves digital transformation and optimization through the inte
 - Participated in the writing of 4 software copyrights related to project technology
 
 ### Behavioral Feature Prediction Model for Academic Performance
-The prediction model constructed a machine learning ensemble model to accurately predict college students' academic performance, achieving efficient student management. As **Project Leader**, engaged in algorithm model design and construction of the integrated model (fusion of K-means clustering, Apriori algorithm, random forest, gradient boosting tree, and XGBoost machine learning algorithms).
+This project investigates student behavior analytics and personalized development pathway modeling through a unified framework that combines clustering, association-rule mining, and ensemble learning. As **Project Leader**, I was responsible for algorithm design, K-means-based student profiling, Apriori-based feature association analysis, and the integration and evaluation of random forest, gradient boosting, and XGBoost models for academic performance prediction.
+
+<img src="{{ '/images/performance-model-preview.jpg' | absolute_url }}" alt="Project preview for behavioral feature prediction model" loading="lazy" />
 
 - Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by SCI (Q4) as first author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
@@ -161,6 +162,6 @@ Engaged in AI tool development, AI tool workflow product development, and testin
 - Serving as reviewer for journals and conferences such as Scientific Data, IJCNN, etc.
 
 ### Practical Experience:
-- Legal Representative of Zhixian Computer Science and Technology (Taian) Co., Ltd.
+- General Manager of Zhixian Computer Science and Technology (Taian) Co., Ltd.
 - Collaborative Developer of Programmer's Inn
 - HarmonyOS Application Developer Advanced Certification
