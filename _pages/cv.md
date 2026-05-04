@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Yang Jinming"
 permalink: /cv/
 author_profile: true
 classes: sci-profile-page
@@ -9,10 +9,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-## <i class="fas fa-envelope"></i> Contact
-
-- **Email**: <a href="mailto:yangjinming@std.uestc.edu.cn">yangjinming@std.uestc.edu.cn</a>
 
 ## <i class="fas fa-university"></i> Education
 
@@ -69,7 +65,7 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 ### Quantifying and Mitigating Bias in LLM-based Evaluation
 This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and develops an automated framework for measuring and mitigating such bias without relying on costly human gold annotations. The work disentangles evaluative bias from generation capability and proposes a structured multi-dimensional evaluation strategy to improve the reliability of automated assessment pipelines used in model alignment, leaderboard construction, and quality control.
 
-<img src="{{ '/images/framework-preview.jpg' | absolute_url }}" alt="Project overview for LLM judge bias mitigation" loading="lazy" />
+<embed src="{{ '/images/framework.pdf' | absolute_url }}" type="application/pdf" width="100%" height="520px" />
 
 - Paper "Quantifying and Mitigating Self-Preference Bias of LLM Judges" is available on arXiv as first author  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
@@ -86,12 +82,8 @@ As **Project Leader**, constructed a generative intelligent agent (EZYer), with 
   <!-- 确保 PDF 文件路径正确 -->
   <a href="{{ '/files/EZYer A simulacrum of high school with generative agent.pdf' | absolute_url }}" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 
-  <img src="{{ '/images/ezyer-paper.jpg' | absolute_url }}" alt="Paper figure for EZYer" loading="lazy" />
-
 ### Digital Twin Smart Grid
 This project focuses on digital twin-enabled planning and siting for smart grids by integrating load distribution, land-use constraints, neighborhood factors, and cost analysis into a unified simulation framework. As **Project Leader**, I was responsible for building the digital twin platform, designing the simulation data pipeline, developing substation siting models based on hierarchical clustering and genetic algorithms, and consolidating the resulting research outputs.
-
-<img src="{{ '/images/digital-twin-preview.jpg' | absolute_url }}" alt="Project preview for digital twin smart grid" loading="lazy" />
 
 - Paper "Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis" has been indexed by SCI (Q4) as first author and corresponding author  
   <!-- 确保 PDF 文件路径正确 -->
@@ -103,8 +95,6 @@ This project focuses on digital twin-enabled planning and siting for smart grids
 
 ### Behavioral Feature Prediction Model for Academic Performance
 This project investigates student behavior analytics and personalized development pathway modeling through a unified framework that combines clustering, association-rule mining, and ensemble learning. As **Project Leader**, I was responsible for algorithm design, K-means-based student profiling, Apriori-based feature association analysis, and the integration and evaluation of random forest, gradient boosting, and XGBoost models for academic performance prediction.
-
-<img src="{{ '/images/performance-model-preview.jpg' | absolute_url }}" alt="Project preview for behavioral feature prediction model" loading="lazy" />
 
 - Paper "Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data" has been indexed by SCI (Q4) as first author and corresponding author  
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>

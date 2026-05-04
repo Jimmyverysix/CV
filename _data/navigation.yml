@@ -10,6 +10,8 @@
 main:   
   - title: "English"
     url: /cv/
+    alt_title: "Chinese"
+    alt_url: /
     
   # - title: "CV"
   #   url: /cv-json/

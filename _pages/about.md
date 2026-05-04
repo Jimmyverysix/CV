@@ -1,16 +1,12 @@
 ---
 permalink: /
-title: "杨金名  (Yang Jinming)"
+title: "杨金名"
 author_profile: true
 classes: sci-profile-page
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-## <i class="fas fa-envelope"></i> <span id="contact">联系方式</span>
-
-- **邮箱**: <a href="mailto:yangjinming@std.uestc.edu.cn">yangjinming@std.uestc.edu.cn</a>
 
 ## <i class="fas fa-university"></i> <span id="education">教育背景</span>
 
@@ -66,7 +62,7 @@ redirect_from:
 ### 大模型评审偏差量化与缓解
 围绕 LLM-as-a-Judge 场景中的自偏好偏差（Self-Preference Bias）开展研究，构建自动化量化框架，在无需人工金标准标注的条件下识别模型对自身生成内容的系统性偏向，并进一步设计结构化、多维度的评测策略以降低评审偏差，提升自动评测系统在模型对齐、排行榜构建与质量控制中的可靠性。
 
-<img src="images/framework-preview.jpg" alt="大模型评审偏差量化与缓解项目预览图" loading="lazy" />
+<embed src="images/framework.pdf" type="application/pdf" width="100%" height="520px" />
 
 - 论文《Quantifying and Mitigating Self-Preference Bias of LLM Judges》已发布于 arXiv 一作  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
@@ -81,12 +77,8 @@ redirect_from:
 - 论文《EZYer: A simulacrum of high school with generative agent》已接收 AgentIR（SIGIR 2025 Workshop）一作、通讯作者  
   <a href="files/EZYer A simulacrum of high school with generative agent.pdf" target="_blank">PDF</a> <a href="https://jimmyverysix.github.io/EZYer/" target="_blank">Home Page</a> <a href="https://www.youtube.com/watch?v=NaXvu3mNdtc" target="_blank">Video</a>
 
-  <img src="images/ezyer-paper.jpg" alt="EZYer 论文图示" loading="lazy" />
-
 ### 数字孪生电网
 围绕智能电网规划与选址决策，构建融合负荷分布、土地利用、邻域约束与成本因素的数字孪生分析框架，并将机器学习与优化算法引入变电站选址过程。担任**项目负责人**，负责数字孪生平台搭建、仿真数据流程设计、层次聚类与遗传算法等模型构建，以及论文撰写与成果整理。
-
-<img src="images/digital-twin-preview.jpg" alt="数字孪生电网项目预览图" loading="lazy" />
 
 - 论文《Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis》已检索 SCI四区 学生一作、通讯作者  
   <a href="files/Simulation Framework for Substation Siting Integrating Load, Land Use, Neighborhood, and Cost Analysis.pdf" target="_blank">PDF</a>
@@ -96,8 +88,6 @@ redirect_from:
 
 ### 行为特征预测成绩模型
 面向高校学生行为数据分析与个体发展路径建模，构建结合聚类、关联规则挖掘与集成学习的预测框架，实现学业表现预测与学生特征分群。担任**项目负责人**，负责算法方案设计、K-means 用户分群、Apriori 特征关联分析，以及随机森林、梯度提升树和 XGBoost 等模型集成与实验验证。
-
-<img src="images/performance-model-preview.jpg" alt="行为特征预测成绩模型项目预览图" loading="lazy" />
 
 - 论文《Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data》已检索 SCI四区 学生一作、通讯作者
   <a href="files/Simulation-Based Machine Learning for Predicting Academic Performance Using Big Data.pdf" target="_blank">PDF</a>
