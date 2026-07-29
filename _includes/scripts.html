@@ -1,5 +1,5 @@
 {% if page.classes contains 'sci-profile-page' %}
-<script src="{{ base_path }}/assets/js/profile-futuristic.js" defer></script>
+<script src="{{ base_path }}/assets/js/profile-futuristic.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}" defer></script>
 {% else %}
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 {% endif %}

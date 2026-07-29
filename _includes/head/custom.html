@@ -11,7 +11,7 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 {% if page.classes contains 'sci-profile-page' %}
-<link rel="stylesheet" href="{{ base_path }}/assets/css/profile-futuristic.css"/>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/profile-futuristic.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}"/>
 {% else %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 {% endif %}
