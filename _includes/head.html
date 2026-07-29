@@ -13,10 +13,22 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  try {
+    var savedTheme = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else if (savedTheme === 'light') {
+      document.documentElement.removeAttribute('data-theme');
+    }
+  } catch (error) {
+    // The page remains usable when storage access is unavailable.
+  }
 </script>
 
-<!-- For all browsers -->
+{% unless page.classes contains 'sci-profile-page' %}
+<!-- The legacy theme remains available to non-profile pages. -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-<link rel="stylesheet" href="{{ base_path }}/assets/css/floating-toc.css">
+{% endunless %}
 
 <meta http-equiv="cleartype" content="on">

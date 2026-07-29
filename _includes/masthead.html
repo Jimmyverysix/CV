@@ -1,32 +1,79 @@
 {% include base_path %}
 
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% assign link_title = link.title %}
-            {% assign link_url = link.url %}
-            {% if link.alt_title and page.url == '/cv/' %}
-              {% assign link_title = link.alt_title %}
-              {% assign link_url = link.alt_url %}
-            {% endif %}
-            {% if link_url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link_url }}">{{ link_title }}</a></li>
+{% assign is_profile_page = false %}
+{% if page.classes contains 'sci-profile-page' %}
+  {% assign is_profile_page = true %}
+{% endif %}
+
+{% if is_profile_page %}
+  {% assign is_english_profile = false %}
+  {% if page.url == '/cv/' %}
+    {% assign is_english_profile = true %}
+  {% endif %}
+
+  <header class="masthead masthead--profile">
+    <div class="masthead__inner-wrap profile-nav-wrap">
+      <nav id="site-nav" class="profile-nav" aria-label="{% if is_english_profile %}Page navigation{% else %}页面导航{% endif %}">
+        <a class="profile-brand" href="{{ base_path }}/">{{ site.title }}</a>
+
+        <div class="profile-nav__sections" aria-label="{% if is_english_profile %}Sections{% else %}页面章节{% endif %}">
+          {% for section in site.data.navigation.profile_sections %}
+            <a class="profile-nav__section toc-nav-link" href="#{{ section.id }}" data-section="{{ section.id }}">
+              {% if is_english_profile %}{{ section.en }}{% else %}{{ section.zh }}{% endif %}
+            </a>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
+        </div>
+
+        <div class="profile-nav__controls">
+          {% if is_english_profile %}
+            <a class="profile-language" href="{{ base_path }}/" aria-label="Switch to Chinese">Chinese</a>
+          {% else %}
+            <a class="profile-language" href="{{ base_path }}/cv/" aria-label="切换到英文">English</a>
+          {% endif %}
+          <button id="theme-toggle" class="profile-theme" type="button" aria-label="Toggle color theme">
+            <span id="theme-icon" class="profile-theme__icon" aria-hidden="true">
+              <svg class="profile-theme__sun" viewBox="0 0 24 24" focusable="false">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+              </svg>
+              <svg class="profile-theme__moon" viewBox="0 0 24 24" focusable="false">
+                <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"></path>
+              </svg>
+            </span>
+          </button>
+        </div>
       </nav>
     </div>
+  </header>
+{% else %}
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <button><div class="navicon"></div></button>
+          <ul class="visible-links">
+            <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+            {% for link in site.data.navigation.main %}
+              {% assign link_title = link.title %}
+              {% assign link_url = link.url %}
+              {% if link.alt_title and page.url == '/cv/' %}
+                {% assign link_title = link.alt_title %}
+                {% assign link_url = link.alt_url %}
+              {% endif %}
+              {% if link_url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link_url }}">{{ link_title }}</a></li>
+            {% endfor %}
+            <li id="theme-toggle" class="masthead__menu-item persist tail">
+              <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+            </li>
+          </ul>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
   </div>
-</div>
+{% endif %}

@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "杨金名"
+layout: profile
+lang: zh-CN
 author_profile: true
 classes: sci-profile-page
 redirect_from: 
@@ -59,10 +61,11 @@ redirect_from:
 - 参与撰写项目技术相关软件著作权4项
 
 ## <i class="fas fa-briefcase"></i> <span id="projects">科研</span>
+
 ### 大模型评审偏差量化与缓解
 围绕 LLM-as-a-Judge 场景中的自偏好偏差（Self-Preference Bias）开展研究，构建自动化量化框架，在无需人工金标准标注的条件下识别模型对自身生成内容的系统性偏向，并进一步设计结构化、多维度的评测策略以降低评审偏差，提升自动评测系统在模型对齐、排行榜构建与质量控制中的可靠性。
 
-<embed src="images/framework.pdf" type="application/pdf" width="100%" height="520px" />
+<iframe src="images/framework.pdf" width="100%" height="520" loading="lazy" title="大模型评审偏差量化与缓解项目概览"></iframe>
 
 - 论文《Quantifying and Mitigating Self-Preference Bias of LLM Judges》已发布于 arXiv 一作  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>

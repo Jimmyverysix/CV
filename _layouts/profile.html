@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main id="main" class="profile-shell" role="main">
+  <aside class="profile-aside profile-spotlight" aria-label="Author profile">
+    {% include author-profile.html %}
+  </aside>
+
+  <article class="profile-main" itemscope itemtype="http://schema.org/Person">
+    <header class="profile-heading profile-spotlight">
+      <span class="profile-heading__rule" aria-hidden="true"></span>
+      <h1 class="page__title" itemprop="name">{{ page.title }}</h1>
+    </header>
+
+    <section class="page__content" itemprop="description">
+      {{ content }}
+    </section>
+  </article>
+</main>

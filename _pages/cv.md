@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: profile
 title: "Yang Jinming"
 permalink: /cv/
+lang: en
 author_profile: true
 classes: sci-profile-page
 redirect_from:
@@ -10,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-## <i class="fas fa-university"></i> Education
+## <i class="fas fa-university"></i> <span id="education">Education</span>
 
 ### University of Electronic Science and Technology of China
 Master of Engineering (2025.09 - Present) (Chengdu, China)
@@ -29,7 +30,7 @@ Bachelor of Engineering (2021.09 - 2025.06) (Xi'an, China)
 Major: Computer Science and Technology  
 Ranking: First in major (1/92) (GPA: 4.05/5.00)
 
-## <i class="fas fa-book"></i> Publications and Patents
+## <i class="fas fa-book"></i> <span id="publications">Publications and Patents</span>
 
 ### Papers
 - **EZYer: A simulacrum of high school with generative agent** (AgentIR, SIGIR 2025 Workshop) - First author and corresponding author  
@@ -60,12 +61,12 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
 ### Software Copyrights
 - Participated in writing 4 software copyrights related to project technology
 
-## <i class="fas fa-briefcase"></i> Research
+## <i class="fas fa-briefcase"></i> <span id="projects">Research</span>
 
 ### Quantifying and Mitigating Bias in LLM-based Evaluation
 This project studies Self-Preference Bias (SPB) in LLM-as-a-Judge systems and develops an automated framework for measuring and mitigating such bias without relying on costly human gold annotations. The work disentangles evaluative bias from generation capability and proposes a structured multi-dimensional evaluation strategy to improve the reliability of automated assessment pipelines used in model alignment, leaderboard construction, and quality control.
 
-<embed src="{{ '/images/framework.pdf' | absolute_url }}" type="application/pdf" width="100%" height="520px" />
+<iframe src="{{ '/images/framework.pdf' | absolute_url }}" width="100%" height="520" loading="lazy" title="Overview of the LLM-based evaluation bias project"></iframe>
 
 - Paper "Quantifying and Mitigating Self-Preference Bias of LLM Judges" is available on arXiv as first author  
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
@@ -101,7 +102,7 @@ This project investigates student behavior analytics and personalized developmen
 - Paper "Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm" is available on arXiv as corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
 
-## <i class="fas fa-trophy"></i> Competitions
+## <i class="fas fa-trophy"></i> <span id="awards">Competitions</span>
 
 A total of over 40 awards have been won, with some as follows:
 
@@ -122,7 +123,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2025.05 Third Prize in the Northwest Regional Competition of the China College Students' Computer Design Competition
 - 2023.12 Second Prize in the Shaanxi Province College Students' Industrial Design Competition
 
-## <i class="fas fa-award"></i> Scholarships
+## <i class="fas fa-award"></i> <span id="scholarships">Scholarships</span>
 
 - 2022.09 **National Scholarship** for Undergraduate Students (**First in the entire college**)
 - 2025.05 <a href="https://mp.weixin.qq.com/s/RUU_IPnF5o2ajlXkcts0LA" target="_blank">**Zhi Cheng Zhi Bo Quan You Scholarship**</a> of Shaanxi University of Science & Technology (**First in the entire university**)  
@@ -131,7 +132,7 @@ A total of over 40 awards have been won, with some as follows:
 - 2025.05 Outstanding Student Cadre Scholarship of Shaanxi University of Science & Technology
 - 2024.05 Outstanding Student Cadre Scholarship of Shaanxi University of Science & Technology
 
-## <i class="fas fa-briefcase"></i> Internship Experience
+## <i class="fas fa-briefcase"></i> <span id="internships">Internship Experience</span>
 
 ### Isoftstone Information Technology (Group) Co.,Ltd. Xi'an Branch
 Development Intern (2024.05 - 2024.06) (Xi'an, China)
@@ -143,7 +144,7 @@ Product Intern (2024.08 - 2025.05) (Xi'an, China)
 
 Engaged in AI tool development, AI tool workflow product development, and testing the application of new AI tools in generating new media content
 
-## <i class="fas fa-user"></i> Other Experiences
+## <i class="fas fa-user"></i> <span id="other-experience">Other Experiences</span>
 
 ### Student Cadre Experience:
 - Served as Deputy Secretary of the College Party Branch, Deputy Secretary of the College Youth League (Student), Head of the Youth League Sci-Tech Department, and Class Monitor during the four years of undergraduate study

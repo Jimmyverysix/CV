@@ -1,6 +1,8 @@
 {% include base_path %}
 
-<script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=dab9b9&w=300&t=tt&d=Zozfu0hiYXS9fGo5PINQtDvjDGf3hNBVRWNl4uy-lNk&co=96c4e4&cmo=d356ec&cmn=7842c6&ct=1db9ab'></script>
+{% unless page.classes contains 'sci-profile-page' %}
+<script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=dab9b9&w=300&t=tt&d=Zozfu0hiYXS9fGo5PINQtDvjDGf3hNBVRWNl4uy-lNk&co=96c4e4&cmo=d356ec&cmn=7842c6&ct=1db9ab' defer></script>
+{% endunless %}
 
 <div class="page__footer-follow">
   <ul class="social-icons">

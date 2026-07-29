@@ -12,6 +12,29 @@ main:
     url: /cv/
     alt_title: "Chinese"
     alt_url: /
+
+profile_sections:
+  - id: education
+    zh: "教育背景"
+    en: "Education"
+  - id: publications
+    zh: "论文专利"
+    en: "Publications"
+  - id: projects
+    zh: "科研"
+    en: "Research"
+  - id: awards
+    zh: "竞赛"
+    en: "Competitions"
+  - id: scholarships
+    zh: "奖学金"
+    en: "Scholarships"
+  - id: internships
+    zh: "实习经历"
+    en: "Internships"
+  - id: other-experience
+    zh: "其他经历"
+    en: "Other"
     
   # - title: "CV"
   #   url: /cv-json/
