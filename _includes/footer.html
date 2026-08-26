@@ -4,12 +4,12 @@
 <script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=dab9b9&w=300&t=tt&d=Zozfu0hiYXS9fGo5PINQtDvjDGf3hNBVRWNl4uy-lNk&co=96c4e4&cmo=d356ec&cmn=7842c6&ct=1db9ab' defer></script>
 {% endunless %}
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-  </ul>
-</div>
-
-<div class="page__footer-copyright" style="text-align: center;">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' %}}
+<div class="page__footer-copyright profile-footer">
+  {% if page.lang == 'zh-CN' %}
+    <p class="profile-footer__copyright">&copy; {{ site.time | date: '%Y' }} 杨金名</p>
+    <p class="profile-footer__meta">基于 <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> 构建 <span aria-hidden="true">·</span> 托管于 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> <span aria-hidden="true">·</span> 最后更新于 {{ site.time | date: '%Y-%m-%d' }}</p>
+  {% else %}
+    <p class="profile-footer__copyright">&copy; {{ site.time | date: '%Y' }} Yang Jinming</p>
+    <p class="profile-footer__meta">Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> <span aria-hidden="true">·</span> Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> <span aria-hidden="true">·</span> Last updated {{ site.time | date: '%Y-%m-%d' }}</p>
+  {% endif %}
 </div>

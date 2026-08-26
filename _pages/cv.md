@@ -45,18 +45,19 @@ Ranking: First in major (1/92) (GPA: 4.05/5.00)
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
 - **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - Corresponding author  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
-- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - First-listed co-first author  
+- **Subjective-Graph LLM Agents for Simulating Uncertainty in Classroom Social Perception** (PRICAI 2026, CCF-C) - First-listed co-first author
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
 
 ### Invention Patents
-- **Method and System for Generating LaTeX Beamer Teaching Slides Based on Large AI Models** (First Inventor) - Published
-- **Track Strength Detection Device and Method** (Third Inventor) - Granted
-- **Propeller Torque Detection Device and Method** (Third Inventor) - Published
-- **Lighting System and Method for Amphibious Robots** (Third Inventor) - Published
-- **Deep Learning-based Visual Segmentation Method and System for Hoisting Sandbag Rupture Detection** (Fourth Inventor) - Published
+- **Method and System for Generating LaTeX Beamer Teaching Slides Based on Large AI Models** - Published
+- **Track Strength Detection Device and Method** - Granted
+- **Propeller Torque Detection Device and Method** - Published
+- **Lighting System and Method for Amphibious Robots** - Published
+- **Deep Learning-based Visual Segmentation Method and System for Hoisting Sandbag Rupture Detection** - Published
+- **Method for Determining Hoisted Sandbag Rupture and Emptying Based on Center-of-Gravity and Morphological Analysis** - Published
 
 ### Utility Model Patents
-- **A Computer Cooling Device Facilitating Installation** (First Inventor) - Granted
+- **A Computer Cooling Device Facilitating Installation** - Granted
 
 ### Software Copyrights
 - Participated in writing 4 software copyrights related to project technology

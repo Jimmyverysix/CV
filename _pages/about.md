@@ -44,18 +44,19 @@ redirect_from:
   <a href="https://arxiv.org/pdf/2604.22891" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2604.22891" target="_blank">Home Page</a>
 - **Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm** (arXiv: 2603.22302) - 通讯作者  
   <a href="https://arxiv.org/pdf/2603.22302" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.22302" target="_blank">Home Page</a>
-- **Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents** (arXiv: 2603.20750) - 共一第一  
+- **Subjective-Graph LLM Agents for Simulating Uncertainty in Classroom Social Perception** (PRICAI 2026，CCF-C) - 共一第一
   <a href="https://arxiv.org/pdf/2603.20750" target="_blank">PDF</a> <a href="https://arxiv.org/abs/2603.20750" target="_blank">Home Page</a>
 
 ### 发明专利
-- **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** (第一发明人) - 发明公开
-- **履带强度检测装置及方法** (第三发明人) - 已授权
-- **螺旋桨扭矩检测装置及方法** (第三发明人) - 发明公开
-- **适用于两栖机器人的照明系统和使用方法** (第三发明人) - 发明公开
-- **一种基于深度学习视觉分割的吊装沙袋破裂识别方法与系统** (第四发明人) - 发明公开
+- **基于AI大模型的LaTeX Beamer教学文稿生成方法与系统** - 发明公开
+- **履带强度检测装置及方法** - 已授权
+- **螺旋桨扭矩检测装置及方法** - 发明公开
+- **适用于两栖机器人的照明系统和使用方法** - 发明公开
+- **一种基于深度学习视觉分割的吊装沙袋破裂识别方法与系统** - 发明公开
+- **基于重心与形态分析的吊装沙袋破袋及排空判定方法** - 发明公开
 
 ### 实用新型专利
-- **一种便于安装的计算机散热装置** (第一发明人) - 已授权
+- **一种便于安装的计算机散热装置** - 已授权
 
 ### 软件著作权
 - 参与撰写项目技术相关软件著作权4项
